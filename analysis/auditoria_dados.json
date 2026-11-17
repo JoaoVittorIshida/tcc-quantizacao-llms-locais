@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-16",
+  "dataset_revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+  "dataset_cache_file": "~/.cache/huggingface/datasets\\TIGER-Lab___mmlu-pro\\default\\0.0.0\\b189ec765aa7ed75c8acfea42df31fdae71f97be\\mmlu-pro-test.arrow",
+  "dataset_arrow_sha256": "4c741944e3b53719b433be6e7916e4ab9e8ff33f70e9c365614b4e317c0476bb",
+  "rows": 12032,
+  "unique_ids": 12032,
+  "matching_keys_per_configuration": 12032,
+  "recovered_rows": 120320,
+  "all_scores_reproduce_csv": true,
+  "statistical_tests_performed": false,
+  "cache_files": [
+    {
+      "file": "results\\processed\\gemma3-4b-native-mmlu-full-cache_rank0.db",
+      "sha256": "6eda3fa5b15a4264fb66925282e98bbb5495c0901235380c7de545d4cbffdfe0",
+      "entries": 12032
+    },
+    {
+      "file": "results\\processed\\gemma3-4b-q8_0-mmlu-full-cache_rank0.db",
+      "sha256": "3afb7c468b96b68963fa0fe6a3bf160e79f155a98b732344693b014baa8c5a6b",
+      "entries": 12032
+    },
+    {
+      "file": "results\\processed\\gemma3-4b-q6_k-mmlu-full-cache_rank0.db",
+      "sha256": "757e1a31e2e1e517fa2a68cf36e51fde6a802e447547c9320a7d4b72c0b12546",
+      "entries": 12032
+    },
+    {
+      "file": "results\\processed\\gemma3-4b-q4_k_m-mmlu-full-cache_rank0.db",
+      "sha256": "4d4c0787c8228763dffe58cd400c537db2bc3b55f8b2ba3c81ed0428759a1944",
+      "entries": 12032
+    },
+    {
+      "file": "results\\processed\\gemma3-4b-q2_k-mmlu-full-cache_rank0.db",
+      "sha256": "a159c6eb1c12fabaa01b0b2af2e1e14465346c05ec4bf4e29c4f555af1b9e0ef",
+      "entries": 12032
+    },
+    {
+      "file": "results\\processed\\qwen3-4b-native-mmlu-full-cache_rank0.db",
+      "sha256": "988a4185fae75b49edb471918a8e2681ad8f96691c922bdf1eb22b21f481d4b1",
+      "entries": 12032
+    },
+    {
+      "file": "results\\processed\\qwen3-4b-q8_0-mmlu-full-cache_rank0.db",
+      "sha256": "9b279dbf4fbc5148fe09d963f2093bfb9840d10036d368db9c0d47c42906aca5",
+      "entries": 12032
+    },
+    {
+      "file": "results\\processed\\qwen3-4b-q6_k-mmlu-full-cache_rank0.db",
+      "sha256": "79d2a6850cdd9c5bd12ddd8cabb2bf1ad81076abfbd960a7556811d3fef87dd7",
+      "entries": 12032
+    },
+    {
+      "file": "results\\processed\\qwen3-4b-q4_k_m-mmlu-full-cache_rank0.db",
+      "sha256": "18849e70b43918923d10789bb0c33bc4d3e71f85250d645230c05a596f1ae7de",
+      "entries": 12032
+    },
+    {
+      "file": "results\\processed\\qwen3-4b-q2_k-mmlu-full-cache_rank0.db",
+      "sha256": "4e1cd5d574e05329daada12761bca195a04d96abd0acc437d8e717271447c8e6",
+      "entries": 12032
+    }
+  ],
+  "checks": [
+    {
+      "configuration": "gemma3-4b-native",
+      "raw_csv_agree": true,
+      "server_releases": 12032,
+      "truncated_nonzero": 0
+    },
+    {
+      "configuration": "gemma3-4b-q8_0",
+      "raw_csv_agree": true,
+      "server_releases": 12032,
+      "truncated_nonzero": 0
+    },
+    {
+      "configuration": "gemma3-4b-q6_k",
+      "raw_csv_agree": true,
+      "server_releases": 12032,
+      "truncated_nonzero": 0
+    },
+    {
+      "configuration": "gemma3-4b-q4_k_m",
+      "raw_csv_agree": true,
+      "server_releases": 12032,
+      "truncated_nonzero": 0
+    },
+    {
+      "configuration": "gemma3-4b-q2_k",
+      "raw_csv_agree": true,
+      "server_releases": 12032,
+      "truncated_nonzero": 0
+    },
+    {
+      "configuration": "qwen3-4b-native",
+      "raw_csv_agree": true,
+      "server_releases": 12032,
+      "truncated_nonzero": 0
+    },
+    {
+      "configuration": "qwen3-4b-q8_0",
+      "raw_csv_agree": true,
+      "server_releases": 12032,
+      "truncated_nonzero": 0
+    },
+    {
+      "configuration": "qwen3-4b-q6_k",
+      "raw_csv_agree": true,
+      "server_releases": 12032,
+      "truncated_nonzero": 0
+    },
+    {
+      "configuration": "qwen3-4b-q4_k_m",
+      "raw_csv_agree": true,
+      "server_releases": 12032,
+      "truncated_nonzero": 0
+    },
+    {
+      "configuration": "qwen3-4b-q2_k",
+      "raw_csv_agree": true,
+      "server_releases": 12032,
+      "truncated_nonzero": 0
+    }
+  ],
+  "experimental_sources_sha256": {
+    "analysis\\results.csv": "091f19a313157de822effd597550f16b7bf0273c5a6a5573c5f349ee3a34efe3",
+    "analysis\\validation.csv": "8bcb26b78f59f9172c6e342d20ab3a6fa9ece763dc5f5fdbf453e8aa61527763",
+    "environment.txt": "42e37e188de40a24261ee6959bbc038d11e05d17b0e7bd5159c359c114e52fdb",
+    "results\\raw\\quantization_manifest.csv": "fcea479242143c101ea93173f7fa23304dbdc650f63b26a223579fb349d7d1b0",
+    "analysis\\tasks\\mmlu_pro_direct.yaml": "b0202b359b8acd7f26bcc1f1e5a093b2bd7c193780d376fd0e4d6c54710713df",
+    "analysis\\tasks\\mmlu_pro_direct_utils.py": "6348f1e7c525cb46ffbcce5b5db9dd0591402e6075f8123bc723c9cbb5a1f712"
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "original_hashes_checked": 611,
+  "original_file_metadata_checked": 36044,
+  "originals_unchanged": true,
+  "copies_verified": 149,
+  "unchanged_copies": 80,
+  "adapted_or_sanitized_copies": 69,
+  "json_sanitized_fields": [
+    {
+      "file": "results/processed/gemma3-4b-native-perplexity.json",
+      "field": "/args/1"
+    },
+    {
+      "file": "results/processed/gemma3-4b-q2_k-perplexity.json",
+      "field": "/args/1"
+    },
+    {
+      "file": "results/processed/gemma3-4b-q4_k_m-perplexity.json",
+      "field": "/args/1"
+    },
+    {
+      "file": "results/processed/gemma3-4b-q6_k-perplexity.json",
+      "field": "/args/1"
+    },
+    {
+      "file": "results/processed/gemma3-4b-q8_0-perplexity.json",
+      "field": "/args/1"
+    },
+    {
+      "file": "results/processed/qwen3-4b-native-perplexity.json",
+      "field": "/args/1"
+    },
+    {
+      "file": "results/processed/qwen3-4b-q2_k-perplexity.json",
+      "field": "/args/1"
+    },
+    {
+      "file": "results/processed/qwen3-4b-q4_k_m-perplexity.json",
+      "field": "/args/1"
+    },
+    {
+      "file": "results/processed/qwen3-4b-q6_k-perplexity.json",
+      "field": "/args/1"
+    },
+    {
+      "file": "results/processed/qwen3-4b-q8_0-perplexity.json",
+      "field": "/args/1"
+    },
+    {
+      "file": "results/raw/gemma3-4b-native-bench.json",
+      "field": "/0/model_filename"
+    },
+    {
+      "file": "results/raw/gemma3-4b-native-bench.json",
+      "field": "/1/model_filename"
+    },
+    {
+      "file": "results/raw/gemma3-4b-q2_k-bench.json",
+      "field": "/0/model_filename"
+    },
+    {
+      "file": "results/raw/gemma3-4b-q2_k-bench.json",
+      "field": "/1/model_filename"
+    },
+    {
+      "file": "results/raw/gemma3-4b-q4_k_m-bench.json",
+      "field": "/0/model_filename"
+    },
+    {
+      "file": "results/raw/gemma3-4b-q4_k_m-bench.json",
+      "field": "/1/model_filename"
+    },
+    {
+      "file": "results/raw/gemma3-4b-q6_k-bench.json",
+      "field": "/0/model_filename"
+    },
+    {
+      "file": "results/raw/gemma3-4b-q6_k-bench.json",
+      "field": "/1/model_filename"
+    },
+    {
+      "file": "results/raw/gemma3-4b-q8_0-bench.json",
+      "field": "/0/model_filename"
+    },
+    {
+      "file": "results/raw/gemma3-4b-q8_0-bench.json",
+      "field": "/1/model_filename"
+    },
+    {
+      "file": "results/raw/mmlu_full/gemma3-4b-native/tcc-model/results_2026-09-28T22-49-15.925487.json",
+      "field": "/configs/mmlu_pro_direct/metadata/config_source"
+    },
+    {
+      "file": "results/raw/mmlu_full/gemma3-4b-native/tcc-model/results_2026-09-28T22-49-15.925487.json",
+      "field": "/config/use_cache"
+    },
+    {
+      "file": "results/raw/mmlu_full/gemma3-4b-q2_k/tcc-model/results_2026-09-28T23-40-29.868368.json",
+      "field": "/configs/mmlu_pro_direct/metadata/config_source"
+    },
+    {
+      "file": "results/raw/mmlu_full/gemma3-4b-q2_k/tcc-model/results_2026-09-28T23-40-29.868368.json",
+      "field": "/config/use_cache"
+    },
+    {
+      "file": "results/raw/mmlu_full/gemma3-4b-q4_k_m/tcc-model/results_2026-09-28T23-27-19.975204.json",
+      "field": "/configs/mmlu_pro_direct/metadata/config_source"
+    },
+    {
+      "file": "results/raw/mmlu_full/gemma3-4b-q4_k_m/tcc-model/results_2026-09-28T23-27-19.975204.json",
+      "field": "/config/use_cache"
+    },
+    {
+      "file": "results/raw/mmlu_full/gemma3-4b-q6_k/tcc-model/results_2026-09-28T23-15-03.922803.json",
+      "field": "/configs/mmlu_pro_direct/metadata/config_source"
+    },
+    {
+      "file": "results/raw/mmlu_full/gemma3-4b-q6_k/tcc-model/results_2026-09-28T23-15-03.922803.json",
+      "field": "/config/use_cache"
+    },
+    {
+      "file": "results/raw/mmlu_full/gemma3-4b-q8_0/tcc-model/results_2026-09-28T23-02-00.375288.json",
+      "field": "/configs/mmlu_pro_direct/metadata/config_source"
+    },
+    {
+      "file": "results/raw/mmlu_full/gemma3-4b-q8_0/tcc-model/results_2026-09-28T23-02-00.375288.json",
+      "field": "/config/use_cache"
+    },
+    {
+      "file": "results/raw/mmlu_full/qwen3-4b-native/tcc-model/results_2026-09-28T23-51-25.375212.json",
+      "field": "/configs/mmlu_pro_direct/metadata/config_source"
+    },
+    {
+      "file": "results/raw/mmlu_full/qwen3-4b-native/tcc-model/results_2026-09-28T23-51-25.375212.json",
+      "field": "/config/use_cache"
+    },
+    {
+      "file": "results/raw/mmlu_full/qwen3-4b-q2_k/tcc-model/results_2026-09-29T00-29-42.461714.json",
+      "field": "/configs/mmlu_pro_direct/metadata/config_source"
+    },
+    {
+      "file": "results/raw/mmlu_full/qwen3-4b-q2_k/tcc-model/results_2026-09-29T00-29-42.461714.json",
+      "field": "/config/use_cache"
+    },
+    {
+      "file": "results/raw/mmlu_full/qwen3-4b-q4_k_m/tcc-model/results_2026-09-29T00-18-51.366985.json",
+      "field": "/configs/mmlu_pro_direct/metadata/config_source"
+    },
+    {
+      "file": "results/raw/mmlu_full/qwen3-4b-q4_k_m/tcc-model/results_2026-09-29T00-18-51.366985.json",
+      "field": "/config/use_cache"
+    },
+    {
+      "file": "results/raw/mmlu_full/qwen3-4b-q6_k/tcc-model/results_2026-09-29T00-10-16.185265.json",
+      "field": "/configs/mmlu_pro_direct/metadata/config_source"
+    },
+    {
+      "file": "results/raw/mmlu_full/qwen3-4b-q6_k/tcc-model/results_2026-09-29T00-10-16.185265.json",
+      "field": "/config/use_cache"
+    },
+    {
+      "file": "results/raw/mmlu_full/qwen3-4b-q8_0/tcc-model/results_2026-09-29T00-00-35.983103.json",
+      "field": "/configs/mmlu_pro_direct/metadata/config_source"
+    },
+    {
+      "file": "results/raw/mmlu_full/qwen3-4b-q8_0/tcc-model/results_2026-09-29T00-00-35.983103.json",
+      "field": "/config/use_cache"
+    },
+    {
+      "file": "results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/results_2026-09-28T22-33-49.972039.json",
+      "field": "/configs/mmlu_pro_direct/metadata/config_source"
+    },
+    {
+      "file": "results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/results_2026-09-28T22-33-49.972039.json",
+      "field": "/config/use_cache"
+    },
+    {
+      "file": "results/raw/mmlu_pilot/qwen3-4b-native/tcc-model/results_2026-09-28T22-34-31.530937.json",
+      "field": "/configs/mmlu_pro_direct/metadata/config_source"
+    },
+    {
+      "file": "results/raw/mmlu_pilot/qwen3-4b-native/tcc-model/results_2026-09-28T22-34-31.530937.json",
+      "field": "/config/use_cache"
+    },
+    {
+      "file": "results/raw/qwen3-4b-native-bench.json",
+      "field": "/0/model_filename"
+    },
+    {
+      "file": "results/raw/qwen3-4b-native-bench.json",
+      "field": "/1/model_filename"
+    },
+    {
+      "file": "results/raw/qwen3-4b-q2_k-bench.json",
+      "field": "/0/model_filename"
+    },
+    {
+      "file": "results/raw/qwen3-4b-q2_k-bench.json",
+      "field": "/1/model_filename"
+    },
+    {
+      "file": "results/raw/qwen3-4b-q4_k_m-bench.json",
+      "field": "/0/model_filename"
+    },
+    {
+      "file": "results/raw/qwen3-4b-q4_k_m-bench.json",
+      "field": "/1/model_filename"
+    },
+    {
+      "file": "results/raw/qwen3-4b-q6_k-bench.json",
+      "field": "/0/model_filename"
+    },
+    {
+      "file": "results/raw/qwen3-4b-q6_k-bench.json",
+      "field": "/1/model_filename"
+    },
+    {
+      "file": "results/raw/qwen3-4b-q8_0-bench.json",
+      "field": "/0/model_filename"
+    },
+    {
+      "file": "results/raw/qwen3-4b-q8_0-bench.json",
+      "field": "/1/model_filename"
+    },
+    {
+      "file": "analysis/auditoria_dados.json",
+      "field": "/dataset_cache_file"
+    }
+  ],
+  "privacy_findings": [],
+  "operational_temporary_paths": [],
+  "system_absolute_path_occurrences": 9,
+  "markdown_local_links_exist": true,
+  "experiments_executed": false,
+  "git_mutations_performed": false,
+  "publication_performed": false,
+  "stage": "Finalização para publicação v1.0.0",
+  "date": "2026-11-17",
+  "timezone": "America/Sao_Paulo",
+  "source_metadata_note": "Internos .git da raiz original excluídos da comparação de metadados: objetos foram reorganizados entre etapas. Os 611 hashes de fontes científicas/documentais permanecem idênticos.",
+  "experimental_code_changed": false,
+  "experimental_results_changed": false,
+  "license": "MIT; somente código próprio e documentação de software",
+  "repo_url": "https://github.com/JoaoVittorIshida/tcc-quantizacao-llms-locais",
+  "release_tag": "v1.0.0",
+  "publication_status": "Verificação anterior ao commit e à publicação dos artefatos; URL pública do repositório já confirmada",
+  "powershell": {
+    "scripts_parsed": 3,
+    "readme_command_blocks_parsed": 19,
+    "errors": 0,
+    "commands_executed": false
+  },
+  "metadata": {
+    "cff_yaml_parsed": true,
+    "cff_author_year_affiliation_checked": true,
+    "cff_doi_absent": true,
+    "cff_full_schema_validation": false,
+    "task_yaml_parsed": true,
+    "task_revision_and_function_checked": true
+  },
+  "existing_public_verifier": "OK"
+}

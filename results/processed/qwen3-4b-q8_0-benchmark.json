@@ -1,0 +1,53 @@
+{
+  "model": "qwen3-4b",
+  "quantization": "Q8_0",
+  "file": "models/qwen3-4b/qwen3-4b-q8_0.gguf",
+  "size_bytes": 4280405280,
+  "size_gb": 4.28040528,
+  "pp512_tps_mean": 10173.198314,
+  "pp512_tps_std": 509.497051,
+  "pp512_samples_tps": [
+    9267.47,
+    10302.6,
+    10440.5,
+    10439.2,
+    10416.2
+  ],
+  "tg128_tps_mean": 145.069669,
+  "tg128_tps_std": 1.762961,
+  "tg128_samples_tps": [
+    143.098,
+    146.351,
+    146.411,
+    146.308,
+    143.18
+  ],
+  "baseline_vram_mib": 1643.94921875,
+  "peak_vram_mib": 6440.421875,
+  "peak_vram_above_baseline_mib": 4796.47265625,
+  "duration_s": 7.918771266937256,
+  "bench_args": [
+    "-p",
+    "512",
+    "-n",
+    "128",
+    "-r",
+    "5",
+    "-ngl",
+    "999",
+    "-b",
+    "2048",
+    "-ub",
+    "512",
+    "-ctk",
+    "f16",
+    "-ctv",
+    "f16",
+    "-fa",
+    "off",
+    "-o",
+    "json"
+  ],
+  "llama_commit_short": "1c4729414",
+  "gpu_info": "NVIDIA GeForce RTX 5070 Ti"
+}

@@ -1,0 +1,13 @@
+cmake==4.4.3
+ninja==1.13.2
+lm-eval[api]==0.4.13
+huggingface-hub==0.36.0
+chardet==5.2.0
+sentencepiece==0.2.2
+protobuf==4.25.9
+numpy==2.4.1
+transformers==4.57.6
+torch>=2.6,<3
+nvidia-ml-py==13.615.71
+datasets==5.0.1
+matplotlib==3.10.8

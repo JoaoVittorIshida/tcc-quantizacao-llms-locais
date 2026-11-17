@@ -1,0 +1,149 @@
+{
+  "status": "OK",
+  "date": "2026-10-16",
+  "checks": [
+    {
+      "configuration": "gemma3-4b-native",
+      "status": "OK",
+      "gguf_sha256": "06f32227da36840c82c13a24c3ef6f307327da3643fa5c4c957445b8e8770090",
+      "relative_recomputed": {
+        "size_reduction_percent": 0.0,
+        "vram_reduction_percent": 0.0,
+        "prompt_speedup": 1.0,
+        "generation_speedup": 1.0,
+        "ppl_delta": 0.0,
+        "ppl_increase_percent": 0.0,
+        "mmlu_retention_percent": 100.0
+      }
+    },
+    {
+      "configuration": "gemma3-4b-q8_0",
+      "status": "OK",
+      "gguf_sha256": "55e418a6eb606bae7099de573a392513379d49e751a4dc6e9a2b47231669b9ea",
+      "relative_recomputed": {
+        "size_reduction_percent": 46.82664096451392,
+        "vram_reduction_percent": 41.50470957429027,
+        "prompt_speedup": 1.267374266529464,
+        "generation_speedup": 1.661830395032812,
+        "ppl_delta": -0.020299999999998875,
+        "ppl_increase_percent": -0.11453396524485626,
+        "mmlu_retention_percent": 99.39626783754115
+      }
+    },
+    {
+      "configuration": "gemma3-4b-q6_k",
+      "status": "OK",
+      "gguf_sha256": "9859b517204d34ed4728383e4afd38373660c167dc45f766f3ddd69b49c00857",
+      "relative_recomputed": {
+        "size_reduction_percent": 58.92352321368002,
+        "vram_reduction_percent": 52.15849406624245,
+        "prompt_speedup": 1.02743578688189,
+        "generation_speedup": 2.0224110304120657,
+        "ppl_delta": -0.10279999999999845,
+        "ppl_increase_percent": -0.5800045136537979,
+        "mmlu_retention_percent": 99.1218441273326
+      }
+    },
+    {
+      "configuration": "gemma3-4b-q4_k_m",
+      "status": "OK",
+      "gguf_sha256": "9e27bc9081c71dffda9bece32f51684b1b70dcc04ceaeb15be01e99375c4fed1",
+      "relative_recomputed": {
+        "size_reduction_percent": 67.94597147992232,
+        "vram_reduction_percent": 60.32549149781177,
+        "prompt_speedup": 1.1727668075568605,
+        "generation_speedup": 2.290193883886292,
+        "ppl_delta": -0.3409000000000013,
+        "ppl_increase_percent": -1.923380726698265,
+        "mmlu_retention_percent": 95.609220636663
+      }
+    },
+    {
+      "configuration": "gemma3-4b-q2_k",
+      "status": "OK",
+      "gguf_sha256": "f3bf5f946c21f6dec54550b2dc0edb9e66b5a60d29ebb2a1863401f19a63d7b0",
+      "relative_recomputed": {
+        "size_reduction_percent": 77.73933931983262,
+        "vram_reduction_percent": 68.9588085871748,
+        "prompt_speedup": 0.9634144740808547,
+        "generation_speedup": 2.760001993577452,
+        "ppl_delta": 8.492999999999999,
+        "ppl_increase_percent": 47.91807718348002,
+        "mmlu_retention_percent": 42.23380900109769
+      }
+    },
+    {
+      "configuration": "qwen3-4b-native",
+      "status": "OK",
+      "gguf_sha256": "fac55a00fd3799b70ef03bd6a6f32f1f72b087fa315035789f69f8f2fe78ca76",
+      "relative_recomputed": {
+        "size_reduction_percent": 0.0,
+        "vram_reduction_percent": 0.0,
+        "prompt_speedup": 1.0,
+        "generation_speedup": 1.0,
+        "ppl_delta": 0.0,
+        "ppl_increase_percent": 0.0,
+        "mmlu_retention_percent": 100.0
+      }
+    },
+    {
+      "configuration": "qwen3-4b-q8_0",
+      "status": "OK",
+      "gguf_sha256": "5b2d620d7494d37a44feb9faa768b2f183f5eded549f62bb1a5dc567767f2b1d",
+      "relative_recomputed": {
+        "size_reduction_percent": 46.835751918605474,
+        "vram_reduction_percent": 42.67587913306333,
+        "prompt_speedup": 1.198417505889846,
+        "generation_speedup": 1.6601051035342869,
+        "ppl_delta": 0.0622000000000007,
+        "ppl_increase_percent": 0.4218407720635753,
+        "mmlu_retention_percent": 99.77674040998579
+      }
+    },
+    {
+      "configuration": "qwen3-4b-q6_k",
+      "status": "OK",
+      "gguf_sha256": "fe195d9b202e9a64b5f165e1b107868884a0082a0a15706b80e75a1a145c88ac",
+      "relative_recomputed": {
+        "size_reduction_percent": 58.934987830911886,
+        "vram_reduction_percent": 53.895916247476094,
+        "prompt_speedup": 0.9957014651657984,
+        "generation_speedup": 2.0080110696202773,
+        "ppl_delta": 0.10139999999999993,
+        "ppl_increase_percent": 0.6876954065473395,
+        "mmlu_retention_percent": 98.88370204992897
+      }
+    },
+    {
+      "configuration": "qwen3-4b-q4_k_m",
+      "status": "OK",
+      "gguf_sha256": "90ab69e64fa363199d8dcd510d3c5072fdb871ba70ad4302daa180fc2d662d02",
+      "relative_recomputed": {
+        "size_reduction_percent": 68.98283052764963,
+        "vram_reduction_percent": 62.88255272464141,
+        "prompt_speedup": 1.149918281181708,
+        "generation_speedup": 2.3360234909470563,
+        "ppl_delta": 0.49070000000000036,
+        "ppl_increase_percent": 3.3279303352345524,
+        "mmlu_retention_percent": 96.1436979906637
+      }
+    },
+    {
+      "configuration": "qwen3-4b-q2_k",
+      "status": "OK",
+      "gguf_sha256": "c9023bb8727b0a577b6bc005baacb2e65c4d32c1b92d4e1bc029652f5f4b6399",
+      "relative_recomputed": {
+        "size_reduction_percent": 79.26418426450293,
+        "vram_reduction_percent": 72.45106849826682,
+        "prompt_speedup": 0.9333177419109872,
+        "generation_speedup": 2.812555156251069,
+        "ppl_delta": 25.792,
+        "ppl_increase_percent": 174.9214982807615,
+        "mmlu_retention_percent": 37.30464785873757
+      }
+    }
+  ],
+  "original_files_unchanged": 310,
+  "mmlu_recovered_rows": 120320,
+  "paired_analysis": "descriptive; no statistical test"
+}

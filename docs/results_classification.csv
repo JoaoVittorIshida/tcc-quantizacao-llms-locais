@@ -1,0 +1,159 @@
+original_path,size_bytes,classification,recommendation,included_path,reason
+results/processed/gemma3-4b-native-benchmark.json,1001,A,GitHub,results/processed/gemma3-4b-native-benchmark.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-native-mmlu-full-cache_rank0.db,2093056,B,Zenodo,,Cache histórico importante; 12.032 respostas por banco; necessário à recuperação histórica independente
+results/processed/gemma3-4b-native-mmlu-full.json,1139,A,GitHub,results/processed/gemma3-4b-native-mmlu-full.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-native-mmlu-pilot-cacheconcurrent8_rank0.db,32768,D,exclusão,,Cache de piloto/ensaios; resultados finais e agregados selecionados são suficientes
+results/processed/gemma3-4b-native-mmlu-pilot-cacheflashon_rank0.db,32768,D,exclusão,,Cache de piloto/ensaios; resultados finais e agregados selecionados são suficientes
+results/processed/gemma3-4b-native-mmlu-pilot-cachenographs_rank0.db,32768,D,exclusão,,Cache de piloto/ensaios; resultados finais e agregados selecionados são suficientes
+results/processed/gemma3-4b-native-mmlu-pilot-cache_rank0.db,32768,D,exclusão,,Cache de piloto/ensaios; resultados finais e agregados selecionados são suficientes
+results/processed/gemma3-4b-native-mmlu-pilot.json,1139,A,GitHub,results/processed/gemma3-4b-native-mmlu-pilot.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-native-perplexity.json,545,A,GitHub,results/processed/gemma3-4b-native-perplexity.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-q2_k-benchmark.json,998,A,GitHub,results/processed/gemma3-4b-q2_k-benchmark.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-q2_k-mmlu-full-cache_rank0.db,2101248,B,Zenodo,,Cache histórico importante; 12.032 respostas por banco; necessário à recuperação histórica independente
+results/processed/gemma3-4b-q2_k-mmlu-full.json,1136,A,GitHub,results/processed/gemma3-4b-q2_k-mmlu-full.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-q2_k-perplexity.json,530,A,GitHub,results/processed/gemma3-4b-q2_k-perplexity.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-q4_k_m-benchmark.json,996,A,GitHub,results/processed/gemma3-4b-q4_k_m-benchmark.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-q4_k_m-mmlu-full-cache_rank0.db,2097152,B,Zenodo,,Cache histórico importante; 12.032 respostas por banco; necessário à recuperação histórica independente
+results/processed/gemma3-4b-q4_k_m-mmlu-full.json,1140,A,GitHub,results/processed/gemma3-4b-q4_k_m-mmlu-full.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-q4_k_m-perplexity.json,545,A,GitHub,results/processed/gemma3-4b-q4_k_m-perplexity.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-q6_k-benchmark.json,997,A,GitHub,results/processed/gemma3-4b-q6_k-benchmark.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-q6_k-mmlu-full-cache_rank0.db,2097152,B,Zenodo,,Cache histórico importante; 12.032 respostas por banco; necessário à recuperação histórica independente
+results/processed/gemma3-4b-q6_k-mmlu-full.json,1134,A,GitHub,results/processed/gemma3-4b-q6_k-mmlu-full.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-q6_k-perplexity.json,545,A,GitHub,results/processed/gemma3-4b-q6_k-perplexity.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-q8_0-benchmark.json,998,A,GitHub,results/processed/gemma3-4b-q8_0-benchmark.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-q8_0-mmlu-full-cache_rank0.db,2084864,B,Zenodo,,Cache histórico importante; 12.032 respostas por banco; necessário à recuperação histórica independente
+results/processed/gemma3-4b-q8_0-mmlu-full.json,1134,A,GitHub,results/processed/gemma3-4b-q8_0-mmlu-full.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/gemma3-4b-q8_0-perplexity.json,544,A,GitHub,results/processed/gemma3-4b-q8_0-perplexity.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-native-benchmark.json,998,A,GitHub,results/processed/qwen3-4b-native-benchmark.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-native-mmlu-full-cache_rank0.db,2121728,B,Zenodo,,Cache histórico importante; 12.032 respostas por banco; necessário à recuperação histórica independente
+results/processed/qwen3-4b-native-mmlu-full.json,1138,A,GitHub,results/processed/qwen3-4b-native-mmlu-full.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-native-mmlu-pilot-cacheconcurrent8_rank0.db,32768,D,exclusão,,Cache de piloto/ensaios; resultados finais e agregados selecionados são suficientes
+results/processed/qwen3-4b-native-mmlu-pilot-cacheflashon_rank0.db,32768,D,exclusão,,Cache de piloto/ensaios; resultados finais e agregados selecionados são suficientes
+results/processed/qwen3-4b-native-mmlu-pilot-cache_rank0.db,32768,D,exclusão,,Cache de piloto/ensaios; resultados finais e agregados selecionados são suficientes
+results/processed/qwen3-4b-native-mmlu-pilot.json,1137,A,GitHub,results/processed/qwen3-4b-native-mmlu-pilot.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-native-perplexity.json,546,A,GitHub,results/processed/qwen3-4b-native-perplexity.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-q2_k-benchmark.json,993,A,GitHub,results/processed/qwen3-4b-q2_k-benchmark.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-q2_k-mmlu-full-cache_rank0.db,2191360,B,Zenodo,,Cache histórico importante; 12.032 respostas por banco; necessário à recuperação histórica independente
+results/processed/qwen3-4b-q2_k-mmlu-full.json,1133,A,GitHub,results/processed/qwen3-4b-q2_k-mmlu-full.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-q2_k-perplexity.json,543,A,GitHub,results/processed/qwen3-4b-q2_k-perplexity.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-q4_k_m-benchmark.json,996,A,GitHub,results/processed/qwen3-4b-q4_k_m-benchmark.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-q4_k_m-mmlu-full-cache_rank0.db,2088960,B,Zenodo,,Cache histórico importante; 12.032 respostas por banco; necessário à recuperação histórica independente
+results/processed/qwen3-4b-q4_k_m-mmlu-full.json,1137,A,GitHub,results/processed/qwen3-4b-q4_k_m-mmlu-full.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-q4_k_m-perplexity.json,545,A,GitHub,results/processed/qwen3-4b-q4_k_m-perplexity.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-q6_k-benchmark.json,991,A,GitHub,results/processed/qwen3-4b-q6_k-benchmark.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-q6_k-mmlu-full-cache_rank0.db,2093056,B,Zenodo,,Cache histórico importante; 12.032 respostas por banco; necessário à recuperação histórica independente
+results/processed/qwen3-4b-q6_k-mmlu-full.json,1134,A,GitHub,results/processed/qwen3-4b-q6_k-mmlu-full.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-q6_k-perplexity.json,544,A,GitHub,results/processed/qwen3-4b-q6_k-perplexity.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-q8_0-benchmark.json,994,A,GitHub,results/processed/qwen3-4b-q8_0-benchmark.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-q8_0-mmlu-full-cache_rank0.db,2101248,B,Zenodo,,Cache histórico importante; 12.032 respostas por banco; necessário à recuperação histórica independente
+results/processed/qwen3-4b-q8_0-mmlu-full.json,1133,A,GitHub,results/processed/qwen3-4b-q8_0-mmlu-full.json,"Artefato selecionado, rastreado no manifesto"
+results/processed/qwen3-4b-q8_0-perplexity.json,542,A,GitHub,results/processed/qwen3-4b-q8_0-perplexity.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/bench-pilot.json,2698,C,exclusão,,"Piloto anterior, tentativa falha, log vazio ou evidência redundante aos logs finais selecionados"
+results/raw/bench-pilot.stderr.log,155,C,exclusão,,"Piloto anterior, tentativa falha, log vazio ou evidência redundante aos logs finais selecionados"
+results/raw/gemma3-4b-conversion-first-attempt.log,1559,C,exclusão,,"Piloto anterior, tentativa falha, log vazio ou evidência redundante aos logs finais selecionados"
+results/raw/gemma3-4b-conversion.log,55338,A,GitHub,results/raw/gemma3-4b-conversion.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-native-bench.json,2776,A,GitHub,results/raw/gemma3-4b-native-bench.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-native-bench.stderr.log,155,A,GitHub,results/raw/gemma3-4b-native-bench.stderr.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-native-mmlu-full-harness.log,487016,A,GitHub,results/raw/gemma3-4b-native-mmlu-full-harness.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-native-mmlu-full-server.log,11078916,B,Zenodo,,Log histórico de completude; 12.032 liberações e ausência de truncamento; sanitizar caminhos antes de depósito
+results/raw/gemma3-4b-native-mmlu-pilot-harness.log,6272,A,GitHub,results/raw/gemma3-4b-native-mmlu-pilot-harness.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-native-mmlu-pilot-server.log,57257,A,GitHub,results/raw/gemma3-4b-native-mmlu-pilot-server.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-native-offload.log,344629,C,exclusão,,"Piloto anterior, tentativa falha, log vazio ou evidência redundante aos logs finais selecionados"
+results/raw/gemma3-4b-native-perplexity.log,8198,A,GitHub,results/raw/gemma3-4b-native-perplexity.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-native-validation.log,420565,A,GitHub,results/raw/gemma3-4b-native-validation.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q2_k-bench.json,2785,A,GitHub,results/raw/gemma3-4b-q2_k-bench.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q2_k-bench.stderr.log,155,A,GitHub,results/raw/gemma3-4b-q2_k-bench.stderr.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q2_k-mmlu-full-harness.log,453343,A,GitHub,results/raw/gemma3-4b-q2_k-mmlu-full-harness.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q2_k-mmlu-full-server.log,11073657,B,Zenodo,,Log histórico de completude; 12.032 liberações e ausência de truncamento; sanitizar caminhos antes de depósito
+results/raw/gemma3-4b-q2_k-perplexity-repeat.log,8198,A,GitHub,results/raw/gemma3-4b-q2_k-perplexity-repeat.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q2_k-perplexity.log,8198,A,GitHub,results/raw/gemma3-4b-q2_k-perplexity.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q2_k-quantization.log,68654,A,GitHub,results/raw/gemma3-4b-q2_k-quantization.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q2_k-validation.log,418426,A,GitHub,results/raw/gemma3-4b-q2_k-validation.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q4_k_m-bench.json,2786,A,GitHub,results/raw/gemma3-4b-q4_k_m-bench.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q4_k_m-bench.stderr.log,155,A,GitHub,results/raw/gemma3-4b-q4_k_m-bench.stderr.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q4_k_m-mmlu-full-harness.log,421806,A,GitHub,results/raw/gemma3-4b-q4_k_m-mmlu-full-harness.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q4_k_m-mmlu-full-server.log,11064558,B,Zenodo,,Log histórico de completude; 12.032 liberações e ausência de truncamento; sanitizar caminhos antes de depósito
+results/raw/gemma3-4b-q4_k_m-perplexity.log,8198,A,GitHub,results/raw/gemma3-4b-q4_k_m-perplexity.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q4_k_m-quantization.log,68666,A,GitHub,results/raw/gemma3-4b-q4_k_m-quantization.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q4_k_m-validation.log,420018,A,GitHub,results/raw/gemma3-4b-q4_k_m-validation.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q6_k-bench.json,2767,A,GitHub,results/raw/gemma3-4b-q6_k-bench.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q6_k-bench.stderr.log,155,A,GitHub,results/raw/gemma3-4b-q6_k-bench.stderr.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q6_k-mmlu-full-harness.log,451961,A,GitHub,results/raw/gemma3-4b-q6_k-mmlu-full-harness.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q6_k-mmlu-full-server.log,11070160,B,Zenodo,,Log histórico de completude; 12.032 liberações e ausência de truncamento; sanitizar caminhos antes de depósito
+results/raw/gemma3-4b-q6_k-perplexity.log,8198,A,GitHub,results/raw/gemma3-4b-q6_k-perplexity.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q6_k-quantization.log,68654,A,GitHub,results/raw/gemma3-4b-q6_k-quantization.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q6_k-validation.log,424306,A,GitHub,results/raw/gemma3-4b-q6_k-validation.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q8_0-bench.json,2769,A,GitHub,results/raw/gemma3-4b-q8_0-bench.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q8_0-bench.stderr.log,155,A,GitHub,results/raw/gemma3-4b-q8_0-bench.stderr.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q8_0-mmlu-full-harness.log,455022,A,GitHub,results/raw/gemma3-4b-q8_0-mmlu-full-harness.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q8_0-mmlu-full-server.log,11068103,B,Zenodo,,Log histórico de completude; 12.032 liberações e ausência de truncamento; sanitizar caminhos antes de depósito
+results/raw/gemma3-4b-q8_0-perplexity.log,8198,A,GitHub,results/raw/gemma3-4b-q8_0-perplexity.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q8_0-quantization.log,68654,A,GitHub,results/raw/gemma3-4b-q8_0-quantization.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/gemma3-4b-q8_0-validation.log,420352,A,GitHub,results/raw/gemma3-4b-q8_0-validation.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/quantization_manifest.csv,2072,A,GitHub,results/raw/quantization_manifest.csv,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-conversion.log,50221,A,GitHub,results/raw/qwen3-4b-conversion.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-native-bench.json,2771,A,GitHub,results/raw/qwen3-4b-native-bench.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-native-bench.stderr.log,155,A,GitHub,results/raw/qwen3-4b-native-bench.stderr.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-native-loader.log,0,C,exclusão,,"Piloto anterior, tentativa falha, log vazio ou evidência redundante aos logs finais selecionados"
+results/raw/qwen3-4b-native-mmlu-full-harness.log,362862,A,GitHub,results/raw/qwen3-4b-native-mmlu-full-harness.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-native-mmlu-full-server.log,11044367,B,Zenodo,,Log histórico de completude; 12.032 liberações e ausência de truncamento; sanitizar caminhos antes de depósito
+results/raw/qwen3-4b-native-mmlu-pilot-harness.log,5681,A,GitHub,results/raw/qwen3-4b-native-mmlu-pilot-harness.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-native-mmlu-pilot-server.log,57110,A,GitHub,results/raw/qwen3-4b-native-mmlu-pilot-server.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-native-offload.log,353338,C,exclusão,,"Piloto anterior, tentativa falha, log vazio ou evidência redundante aos logs finais selecionados"
+results/raw/qwen3-4b-native-perplexity.log,8366,A,GitHub,results/raw/qwen3-4b-native-perplexity.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-native-validation.log,429247,A,GitHub,results/raw/qwen3-4b-native-validation.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q2_k-bench.json,2780,A,GitHub,results/raw/qwen3-4b-q2_k-bench.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q2_k-bench.stderr.log,155,A,GitHub,results/raw/qwen3-4b-q2_k-bench.stderr.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q2_k-mmlu-full-harness.log,365831,A,GitHub,results/raw/qwen3-4b-q2_k-mmlu-full-harness.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q2_k-mmlu-full-server.log,11054547,B,Zenodo,,Log histórico de completude; 12.032 liberações e ausência de truncamento; sanitizar caminhos antes de depósito
+results/raw/qwen3-4b-q2_k-perplexity-repeat.log,8367,A,GitHub,results/raw/qwen3-4b-q2_k-perplexity-repeat.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q2_k-perplexity.log,8367,A,GitHub,results/raw/qwen3-4b-q2_k-perplexity.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q2_k-quantization.log,63154,A,GitHub,results/raw/qwen3-4b-q2_k-quantization.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q2_k-validation.log,438865,A,GitHub,results/raw/qwen3-4b-q2_k-validation.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q4_k_m-bench.json,2784,A,GitHub,results/raw/qwen3-4b-q4_k_m-bench.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q4_k_m-bench.stderr.log,155,A,GitHub,results/raw/qwen3-4b-q4_k_m-bench.stderr.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q4_k_m-mmlu-full-harness.log,302129,A,GitHub,results/raw/qwen3-4b-q4_k_m-mmlu-full-harness.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q4_k_m-mmlu-full-server.log,11037096,B,Zenodo,,Log histórico de completude; 12.032 liberações e ausência de truncamento; sanitizar caminhos antes de depósito
+results/raw/qwen3-4b-q4_k_m-perplexity.log,8367,A,GitHub,results/raw/qwen3-4b-q4_k_m-perplexity.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q4_k_m-quantization.log,63166,A,GitHub,results/raw/qwen3-4b-q4_k_m-quantization.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q4_k_m-validation.log,425411,A,GitHub,results/raw/qwen3-4b-q4_k_m-validation.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q6_k-bench.json,2761,A,GitHub,results/raw/qwen3-4b-q6_k-bench.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q6_k-bench.stderr.log,155,A,GitHub,results/raw/qwen3-4b-q6_k-bench.stderr.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q6_k-mmlu-full-harness.log,332652,A,GitHub,results/raw/qwen3-4b-q6_k-mmlu-full-harness.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q6_k-mmlu-full-server.log,11039734,B,Zenodo,,Log histórico de completude; 12.032 liberações e ausência de truncamento; sanitizar caminhos antes de depósito
+results/raw/qwen3-4b-q6_k-perplexity.log,8365,A,GitHub,results/raw/qwen3-4b-q6_k-perplexity.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q6_k-quantization.log,63154,A,GitHub,results/raw/qwen3-4b-q6_k-quantization.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q6_k-validation.log,434921,A,GitHub,results/raw/qwen3-4b-q6_k-validation.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q8_0-bench.json,2763,A,GitHub,results/raw/qwen3-4b-q8_0-bench.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q8_0-bench.stderr.log,155,A,GitHub,results/raw/qwen3-4b-q8_0-bench.stderr.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q8_0-mmlu-full-harness.log,322979,A,GitHub,results/raw/qwen3-4b-q8_0-mmlu-full-harness.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q8_0-mmlu-full-server.log,11038532,B,Zenodo,,Log histórico de completude; 12.032 liberações e ausência de truncamento; sanitizar caminhos antes de depósito
+results/raw/qwen3-4b-q8_0-perplexity.log,8366,A,GitHub,results/raw/qwen3-4b-q8_0-perplexity.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q8_0-quantization.log,63154,A,GitHub,results/raw/qwen3-4b-q8_0-quantization.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/qwen3-4b-q8_0-validation.log,429157,A,GitHub,results/raw/qwen3-4b-q8_0-validation.log,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_full/gemma3-4b-native/tcc-model/results_2026-09-28T22-49-15.925487.json,5673,A,GitHub,results/raw/mmlu_full/gemma3-4b-native/tcc-model/results_2026-09-28T22-49-15.925487.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_full/gemma3-4b-q2_k/tcc-model/results_2026-09-28T23-40-29.868368.json,5672,A,GitHub,results/raw/mmlu_full/gemma3-4b-q2_k/tcc-model/results_2026-09-28T23-40-29.868368.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_full/gemma3-4b-q4_k_m/tcc-model/results_2026-09-28T23-27-19.975204.json,5674,A,GitHub,results/raw/mmlu_full/gemma3-4b-q4_k_m/tcc-model/results_2026-09-28T23-27-19.975204.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_full/gemma3-4b-q6_k/tcc-model/results_2026-09-28T23-15-03.922803.json,5671,A,GitHub,results/raw/mmlu_full/gemma3-4b-q6_k/tcc-model/results_2026-09-28T23-15-03.922803.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_full/gemma3-4b-q8_0/tcc-model/results_2026-09-28T23-02-00.375288.json,5669,A,GitHub,results/raw/mmlu_full/gemma3-4b-q8_0/tcc-model/results_2026-09-28T23-02-00.375288.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_full/qwen3-4b-native/tcc-model/results_2026-09-28T23-51-25.375212.json,5673,A,GitHub,results/raw/mmlu_full/qwen3-4b-native/tcc-model/results_2026-09-28T23-51-25.375212.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_full/qwen3-4b-q2_k/tcc-model/results_2026-09-29T00-29-42.461714.json,5670,A,GitHub,results/raw/mmlu_full/qwen3-4b-q2_k/tcc-model/results_2026-09-29T00-29-42.461714.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_full/qwen3-4b-q4_k_m/tcc-model/results_2026-09-29T00-18-51.366985.json,5673,A,GitHub,results/raw/mmlu_full/qwen3-4b-q4_k_m/tcc-model/results_2026-09-29T00-18-51.366985.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_full/qwen3-4b-q6_k/tcc-model/results_2026-09-29T00-10-16.185265.json,5671,A,GitHub,results/raw/mmlu_full/qwen3-4b-q6_k/tcc-model/results_2026-09-29T00-10-16.185265.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_full/qwen3-4b-q8_0/tcc-model/results_2026-09-29T00-00-35.983103.json,5671,A,GitHub,results/raw/mmlu_full/qwen3-4b-q8_0/tcc-model/results_2026-09-29T00-00-35.983103.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/results_2026-09-28T22-24-36.202196.json,5739,C,exclusão,,"Piloto anterior, tentativa falha, log vazio ou evidência redundante aos logs finais selecionados"
+results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/results_2026-09-28T22-25-43.456691.json,5737,C,exclusão,,"Piloto anterior, tentativa falha, log vazio ou evidência redundante aos logs finais selecionados"
+results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/results_2026-09-28T22-30-07.111553.json,5775,C,exclusão,,"Piloto anterior, tentativa falha, log vazio ou evidência redundante aos logs finais selecionados"
+results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/results_2026-09-28T22-33-11.076540.json,5772,C,exclusão,,"Piloto anterior, tentativa falha, log vazio ou evidência redundante aos logs finais selecionados"
+results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/results_2026-09-28T22-33-49.972039.json,5770,A,GitHub,results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/results_2026-09-28T22-33-49.972039.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/samples_mmlu_pro_direct_2026-09-28T22-24-36.202196.jsonl,128061,E,exclusão,,Amostras de piloto com enunciados/alternativas de terceiros; não integram as tabelas finais
+results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/samples_mmlu_pro_direct_2026-09-28T22-25-43.456691.jsonl,128061,E,exclusão,,Amostras de piloto com enunciados/alternativas de terceiros; não integram as tabelas finais
+results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/samples_mmlu_pro_direct_2026-09-28T22-30-07.111553.jsonl,128061,E,exclusão,,Amostras de piloto com enunciados/alternativas de terceiros; não integram as tabelas finais
+results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/samples_mmlu_pro_direct_2026-09-28T22-33-11.076540.jsonl,128061,E,exclusão,,Amostras de piloto com enunciados/alternativas de terceiros; não integram as tabelas finais
+results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/samples_mmlu_pro_direct_2026-09-28T22-33-49.972039.jsonl,128061,E,exclusão,,Amostras de piloto com enunciados/alternativas de terceiros; não integram as tabelas finais
+results/raw/mmlu_pilot/qwen3-4b-native/tcc-model/results_2026-09-28T22-26-41.392494.json,5738,C,exclusão,,"Piloto anterior, tentativa falha, log vazio ou evidência redundante aos logs finais selecionados"
+results/raw/mmlu_pilot/qwen3-4b-native/tcc-model/results_2026-09-28T22-31-01.477099.json,5772,C,exclusão,,"Piloto anterior, tentativa falha, log vazio ou evidência redundante aos logs finais selecionados"
+results/raw/mmlu_pilot/qwen3-4b-native/tcc-model/results_2026-09-28T22-34-31.530937.json,5770,A,GitHub,results/raw/mmlu_pilot/qwen3-4b-native/tcc-model/results_2026-09-28T22-34-31.530937.json,"Artefato selecionado, rastreado no manifesto"
+results/raw/mmlu_pilot/qwen3-4b-native/tcc-model/samples_mmlu_pro_direct_2026-09-28T22-26-41.392494.jsonl,128209,E,exclusão,,Amostras de piloto com enunciados/alternativas de terceiros; não integram as tabelas finais
+results/raw/mmlu_pilot/qwen3-4b-native/tcc-model/samples_mmlu_pro_direct_2026-09-28T22-31-01.477099.jsonl,128184,E,exclusão,,Amostras de piloto com enunciados/alternativas de terceiros; não integram as tabelas finais
+results/raw/mmlu_pilot/qwen3-4b-native/tcc-model/samples_mmlu_pro_direct_2026-09-28T22-34-31.530937.jsonl,128184,E,exclusão,,Amostras de piloto com enunciados/alternativas de terceiros; não integram as tabelas finais

@@ -1,0 +1,15 @@
+--- fonte/prepare_wikitext.py
++++ scripts/prepare_wikitext.py
+@@ -5,11 +5,10 @@
+ from pathlib import Path
+ 
+ from datasets import load_dataset
+-from huggingface_hub import HfApi
+ 
+ 
+ root = Path(__file__).resolve().parents[1]
+-revision = HfApi().dataset_info("Salesforce/wikitext").sha
++revision = "b08601e04326c79dfdd32d625aee71d232d685c3"
+ dataset = load_dataset(
+     "Salesforce/wikitext", "wikitext-2-raw-v1", split="test", revision=revision
+ )

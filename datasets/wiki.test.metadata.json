@@ -1,0 +1,11 @@
+{
+  "source": "Salesforce/wikitext",
+  "config": "wikitext-2-raw-v1",
+  "split": "test",
+  "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "rows": 4358,
+  "path": "datasets/wiki.test.raw",
+  "size_bytes": 1292014,
+  "sha256": "bfe9eb16ab9987fb88bde4ea9a30a00f2a45db01dfc14bad78d05325789c4f12",
+  "processing": "Join unmodified row text with LF and add final LF; UTF-8"
+}

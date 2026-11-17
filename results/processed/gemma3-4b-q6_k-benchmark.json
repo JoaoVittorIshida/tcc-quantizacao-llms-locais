@@ -1,0 +1,53 @@
+{
+  "model": "gemma3-4b",
+  "quantization": "Q6_K",
+  "file": "models/gemma3-4b/gemma3-4b-q6_k.gguf",
+  "size_bytes": 3190740128,
+  "size_gb": 3.190740128,
+  "pp512_tps_mean": 9840.952727,
+  "pp512_tps_std": 400.714315,
+  "pp512_samples_tps": [
+    9131.65,
+    9940.74,
+    9984.28,
+    10070.8,
+    10077.3
+  ],
+  "tg128_tps_mean": 183.658424,
+  "tg128_tps_std": 1.498124,
+  "tg128_samples_tps": [
+    183.847,
+    185.063,
+    182.54,
+    181.747,
+    185.096
+  ],
+  "baseline_vram_mib": 1631.94921875,
+  "peak_vram_mib": 5601.046875,
+  "peak_vram_above_baseline_mib": 3969.09765625,
+  "duration_s": 6.405614852905273,
+  "bench_args": [
+    "-p",
+    "512",
+    "-n",
+    "128",
+    "-r",
+    "5",
+    "-ngl",
+    "999",
+    "-b",
+    "2048",
+    "-ub",
+    "512",
+    "-ctk",
+    "f16",
+    "-ctv",
+    "f16",
+    "-fa",
+    "off",
+    "-o",
+    "json"
+  ],
+  "llama_commit_short": "1c4729414",
+  "gpu_info": "NVIDIA GeForce RTX 5070 Ti"
+}

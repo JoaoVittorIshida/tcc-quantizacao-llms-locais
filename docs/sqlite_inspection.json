@@ -1,0 +1,105 @@
+{
+  "note": "Leitura SQLite em mode=ro; sem inferência ou execução do script de recuperação. Dez hashes conferem com o relatório histórico.",
+  "databases": [
+    {
+      "path": "results/processed/gemma3-4b-native-mmlu-full-cache_rank0.db",
+      "entries": 12032,
+      "columns": [
+        "key",
+        "value"
+      ],
+      "value_type": "pickled string",
+      "sha256": "6eda3fa5b15a4264fb66925282e98bbb5495c0901235380c7de545d4cbffdfe0"
+    },
+    {
+      "path": "results/processed/gemma3-4b-q8_0-mmlu-full-cache_rank0.db",
+      "entries": 12032,
+      "columns": [
+        "key",
+        "value"
+      ],
+      "value_type": "pickled string",
+      "sha256": "3afb7c468b96b68963fa0fe6a3bf160e79f155a98b732344693b014baa8c5a6b"
+    },
+    {
+      "path": "results/processed/gemma3-4b-q6_k-mmlu-full-cache_rank0.db",
+      "entries": 12032,
+      "columns": [
+        "key",
+        "value"
+      ],
+      "value_type": "pickled string",
+      "sha256": "757e1a31e2e1e517fa2a68cf36e51fde6a802e447547c9320a7d4b72c0b12546"
+    },
+    {
+      "path": "results/processed/gemma3-4b-q4_k_m-mmlu-full-cache_rank0.db",
+      "entries": 12032,
+      "columns": [
+        "key",
+        "value"
+      ],
+      "value_type": "pickled string",
+      "sha256": "4d4c0787c8228763dffe58cd400c537db2bc3b55f8b2ba3c81ed0428759a1944"
+    },
+    {
+      "path": "results/processed/gemma3-4b-q2_k-mmlu-full-cache_rank0.db",
+      "entries": 12032,
+      "columns": [
+        "key",
+        "value"
+      ],
+      "value_type": "pickled string",
+      "sha256": "a159c6eb1c12fabaa01b0b2af2e1e14465346c05ec4bf4e29c4f555af1b9e0ef"
+    },
+    {
+      "path": "results/processed/qwen3-4b-native-mmlu-full-cache_rank0.db",
+      "entries": 12032,
+      "columns": [
+        "key",
+        "value"
+      ],
+      "value_type": "pickled string",
+      "sha256": "988a4185fae75b49edb471918a8e2681ad8f96691c922bdf1eb22b21f481d4b1"
+    },
+    {
+      "path": "results/processed/qwen3-4b-q8_0-mmlu-full-cache_rank0.db",
+      "entries": 12032,
+      "columns": [
+        "key",
+        "value"
+      ],
+      "value_type": "pickled string",
+      "sha256": "9b279dbf4fbc5148fe09d963f2093bfb9840d10036d368db9c0d47c42906aca5"
+    },
+    {
+      "path": "results/processed/qwen3-4b-q6_k-mmlu-full-cache_rank0.db",
+      "entries": 12032,
+      "columns": [
+        "key",
+        "value"
+      ],
+      "value_type": "pickled string",
+      "sha256": "79d2a6850cdd9c5bd12ddd8cabb2bf1ad81076abfbd960a7556811d3fef87dd7"
+    },
+    {
+      "path": "results/processed/qwen3-4b-q4_k_m-mmlu-full-cache_rank0.db",
+      "entries": 12032,
+      "columns": [
+        "key",
+        "value"
+      ],
+      "value_type": "pickled string",
+      "sha256": "18849e70b43918923d10789bb0c33bc4d3e71f85250d645230c05a596f1ae7de"
+    },
+    {
+      "path": "results/processed/qwen3-4b-q2_k-mmlu-full-cache_rank0.db",
+      "entries": 12032,
+      "columns": [
+        "key",
+        "value"
+      ],
+      "value_type": "pickled string",
+      "sha256": "4e1cd5d574e05329daada12761bca195a04d96abd0acc437d8e717271447c8e6"
+    }
+  ]
+}

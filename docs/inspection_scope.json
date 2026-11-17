@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-17",
+  "inventory_total_files": 36708,
+  "root_groups": {
+    ".gitignore": {
+      "files": 1,
+      "bytes": 56
+    },
+    "environment.txt": {
+      "files": 1,
+      "bytes": 1203
+    },
+    "EXPERIMENT_PLAN_TCC_SIMPLIFICADO.md": {
+      "files": 1,
+      "bytes": 16586
+    },
+    "INSTRUCOES_FINAIS_TCC_CODEX.md": {
+      "files": 1,
+      "bytes": 32348
+    },
+    "README.md": {
+      "files": 1,
+      "bytes": 12617
+    },
+    "requirements.txt": {
+      "files": 1,
+      "bytes": 232
+    },
+    ".git": {
+      "files": 664,
+      "bytes": 102014222
+    },
+    ".venv": {
+      "files": 30979,
+      "bytes": 460039582
+    },
+    "analysis": {
+      "files": 12,
+      "bytes": 450828
+    },
+    "datasets": {
+      "files": 2,
+      "bytes": 1292406
+    },
+    "llama.cpp": {
+      "files": 4374,
+      "bytes": 1202107680
+    },
+    "models": {
+      "files": 68,
+      "bytes": 55813296669
+    },
+    "results": {
+      "files": 158,
+      "bytes": 142834700
+    },
+    "scripts": {
+      "files": 18,
+      "bytes": 69773
+    },
+    "V1": {
+      "files": 350,
+      "bytes": 96866760
+    },
+    "V2": {
+      "files": 77,
+      "bytes": 23307269
+    }
+  },
+  "scope": "Inventário recursivo de metadados de toda a raiz. Conteúdo do TCC atual, código próprio, configurações, resultados, logs e documentos experimentais relevantes lidos. Internos de .venv/.git/clone, pesos e versões antigas foram classificados sem afirmar leitura semântica de todos os seus bytes. Caches externos consultados apenas nos recursos experimentais identificados."
+}

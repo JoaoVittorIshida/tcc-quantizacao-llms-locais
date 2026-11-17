@@ -1,0 +1,11 @@
+--- fonte/quality.py
++++ scripts/quality.py
+@@ -81,7 +81,7 @@
+             eval_command = [
+                 str(EVAL), "run", "--model", "local-chat-completions",
+                 "--model_args", model_args, "--tasks", "mmlu_pro_direct",
+-                "--include_path", str(ROOT / "analysis" / "tasks"),
++                "--include_path", str(ROOT / "configs"),
+                 "--apply_chat_template", "--num_fewshot", "0",
+                 "--batch_size", "1", "--output_path", str(output_dir),
+                 "--use_cache", str(PROCESSED / f"{name}-mmlu-{mode}-cache{cache_tag}"),

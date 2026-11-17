@@ -1,0 +1,70 @@
+# Ambientes e caches
+.venv/
+venv/
+virtualenv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+cache/
+hf_cache/
+.cache/
+# Credenciais
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*credentials*
+*cookies*
+.netrc
+_netrc
+.ssh/
+hf_token*
+github_token*
+# Modelos, software de terceiros e builds
+models/
+checkpoints/
+llama.cpp/
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.exp
+build/
+dist/
+# Datasets completos e caches de respostas
+datasets/*
+!datasets/wiki.test.metadata.json
+*.arrow
+*.parquet
+*.db
+*.db-*
+*.sqlite*
+*.jsonl
+# Novas reproduções e arquivos de trabalho
+reproduction_run/
+analysis/reproduced_audit/
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.vs/
+.codex/
+*.code-workspace
+# Documentos e materiais de redação não pertencem ao pacote
+*.docx
+*.pdf

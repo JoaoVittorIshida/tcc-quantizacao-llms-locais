@@ -1,0 +1,24 @@
+{
+  "mmlu_pro": {
+    "repository": "TIGER-Lab/MMLU-Pro",
+    "revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+    "split": "test",
+    "rows": 12032,
+    "arrow": {
+      "path": "~/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/b189ec765aa7ed75c8acfea42df31fdae71f97be/mmlu-pro-test.arrow",
+      "size": 8724720,
+      "sha256": "4c741944e3b53719b433be6e7916e4ab9e8ff33f70e9c365614b4e317c0476bb"
+    },
+    "dataset_card_sha256": "4bd710f67da3fa359a33edce1b4b5816b3de416c823c2624ba5e89c2557d2a47",
+    "license_metadata": "mit"
+  },
+  "wikitext": {
+    "metadata": "datasets/wiki.test.metadata.json",
+    "dataset_card_sha256": "d5aabf145d341366745ac703b5844c442c143943b6c77929481395c822b1c28c",
+    "license_metadata": [
+      "cc-by-sa-3.0",
+      "gfdl"
+    ],
+    "license_body": "CC BY-SA 4.0; discrepância interna no cartão oficial, corpus excluído"
+  }
+}

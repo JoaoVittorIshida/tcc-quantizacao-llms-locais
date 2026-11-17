@@ -1,0 +1,45 @@
+--- fonte/auditar_dados.py
++++ scripts/auditar_dados.py
+@@ -1,4 +1,4 @@
+-"""Auditoria retrospectiva; somente lê os experimentos e grava derivados no diretório de apoio.
++"""Auditoria retrospectiva; somente lê os experimentos e grava novos derivados em analysis/reproduced_audit.
+ 
+ Executar com .venv/Scripts/python.exe, pois pyarrow está no ambiente experimental.
+ Não carrega modelos nem inicia inferência.
+@@ -9,15 +9,16 @@
+ import json
+ import math
+ import pickle
++import os
+ import re
+ import sqlite3
+ from pathlib import Path
+ import pyarrow as pa
+ 
+-ROOT = Path(__file__).resolve().parents[2]
+-OUT = Path(__file__).resolve().parent
++ROOT = Path(__file__).resolve().parents[1]
++OUT = ROOT / "analysis" / "reproduced_audit"
+ REV = 'b189ec765aa7ed75c8acfea42df31fdae71f97be'
+-DATA = Path.home()/'.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0'/REV/'mmlu-pro-test.arrow'
++DATA = Path(os.environ['TCC_MMLU_ARROW']) if os.environ.get('TCC_MMLU_ARROW') else Path.home()/'.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0'/REV/'mmlu-pro-test.arrow'
+ PATTERN = re.compile(r'^\s*(?:(?i:answer)\s*:\s*)?([A-J])\b')
+ 
+ class StringsOnly(pickle.Unpickler):
+@@ -32,6 +33,7 @@
+     return h.hexdigest()
+ 
+ def main():
++    OUT.mkdir(parents=True, exist_ok=True)
+     docs = pa.ipc.open_stream(pa.memory_map(str(DATA), 'r')).read_all().to_pylist()
+     assert len(docs) == 12032
+     assert len({d['question_id'] for d in docs}) == 12032
+@@ -103,7 +105,7 @@
+         checks.append(dict(configuration=name,raw_csv_agree=True,server_releases=12032,truncated_nonzero=0))
+     meta=json.loads((ROOT/'datasets/wiki.test.metadata.json').read_text())
+     assert sha(ROOT/'datasets/wiki.test.raw')==meta['sha256']
+-    report=dict(date='2026-10-16',dataset_revision=REV,dataset_cache_file=str(DATA),dataset_arrow_sha256=sha(DATA),rows=12032,unique_ids=12032,matching_keys_per_configuration=12032,recovered_rows=120320,all_scores_reproduce_csv=True,statistical_tests_performed=False,cache_files=inventory,checks=checks,experimental_sources_sha256={str(p.relative_to(ROOT)):sha(p) for p in [ROOT/'analysis/results.csv',ROOT/'analysis/validation.csv',ROOT/'environment.txt',ROOT/'results/raw/quantization_manifest.csv',ROOT/'analysis/tasks/mmlu_pro_direct.yaml',ROOT/'analysis/tasks/mmlu_pro_direct_utils.py']})
++    report=dict(date='2026-10-16',dataset_revision=REV,dataset_cache_file=DATA.name,dataset_arrow_sha256=sha(DATA),rows=12032,unique_ids=12032,matching_keys_per_configuration=12032,recovered_rows=120320,all_scores_reproduce_csv=True,statistical_tests_performed=False,cache_files=inventory,checks=checks,experimental_sources_sha256={str(p.relative_to(ROOT)):sha(p) for p in [ROOT/'analysis/results.csv',ROOT/'analysis/validation.csv',ROOT/'environment.txt',ROOT/'results/raw/quantization_manifest.csv',ROOT/'configs/mmlu_pro_direct.yaml',ROOT/'configs/mmlu_pro_direct_utils.py']})
+     (OUT/'auditoria_dados.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+     print(json.dumps(dict(scores=scores,paired=paired,checks='OK'),ensure_ascii=False,indent=2))
+ 

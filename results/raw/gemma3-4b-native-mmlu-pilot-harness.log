@@ -1,0 +1,29 @@
+2026-09-28:22:33:26 WARNING  [config.evaluate_config:337] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-09-28:22:33:26 INFO     [config.evaluate_config:357] Using default fewshot_as_multiturn=True.
+2026-09-28:22:33:35 INFO     [_cli.run:391] Including path: analysis\tasks
+2026-09-28:22:33:35 INFO     [_cli.run:392] Selected Tasks: ['mmlu_pro_direct']
+2026-09-28:22:33:37 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-09-28:22:33:37 INFO     [evaluator:239] Initializing local-chat-completions model, with arguments: {'model': 'tcc-model', 'base_url': 'http://127.0.0.1:8090/v1/chat/completions', 'tokenizer_backend': 'none', 'tokenized_requests': False, 'num_concurrent': 8, 'max_length': 2048, 'max_retries': 3, 'timeout': 300}
+2026-09-28:22:33:37 INFO     [models.api_models:176] Using max length 2048 - 1
+2026-09-28:22:33:37 INFO     [models.api_models:197] Using tokenizer None
+2026-09-28:22:33:37 INFO     [evaluator:278] Using cache at results\processed\gemma3-4b-native-mmlu-pilot-cacheflashon_rank0.db
+2026-09-28:22:33:40 INFO     [evaluator_utils:472] Selected tasks:
+2026-09-28:22:33:40 INFO     [evaluator_utils:506] Task: mmlu_pro_direct (analysis\tasks\mmlu_pro_direct.yaml)
+2026-09-28:22:33:40 INFO     [evaluator:314] mmlu_pro_direct: Using gen_kwargs: {'until': ['\n'], 'max_gen_toks': 8, 'do_sample': False, 'temperature': 0.0}
+2026-09-28:22:33:40 INFO     [evaluator:330] num_fewshot has been set to 0 for mmlu_pro_direct in its config. Manual configuration will be ignored.
+2026-09-28:22:33:40 INFO     [api.task:312] Building contexts for mmlu_pro_direct on rank 0...
+  0%|          | 0/70 [00:00<?, ?it/s]100%|██████████| 70/70 [00:00<?, ?it/s]
+2026-09-28:22:33:40 INFO     [evaluator:589] Running generate_until requests
+2026-09-28:22:33:40 INFO     [api.model:305] Loading 'generate_until' responses from cache 'results\processed\gemma3-4b-native-mmlu-pilot-cacheflashon_rank0.db' where possible...
+Checking cached requests:   0%|          | 0/70 [00:00<?, ?it/s]Checking cached requests: 100%|██████████| 70/70 [00:00<00:00, 3331.65it/s]
+2026-09-28:22:33:40 INFO     [api.model:329] Cached requests: 0, Requests remaining: 70
+2026-09-28:22:33:40 INFO     [models.api_models:752] Tokenized requests are disabled. Context + generation length is not checked.
+Requesting API:   0%|          | 0/70 [00:00<?, ?it/s]Requesting API:   1%|▏         | 1/70 [00:00<00:11,  5.97it/s]Requesting API:   4%|▍         | 3/70 [00:00<00:06,  9.79it/s]Requesting API:   7%|▋         | 5/70 [00:00<00:05, 12.64it/s]Requesting API:  10%|█         | 7/70 [00:00<00:04, 14.07it/s]Requesting API:  13%|█▎        | 9/70 [00:00<00:04, 15.08it/s]Requesting API:  16%|█▌        | 11/70 [00:00<00:03, 15.98it/s]Requesting API:  19%|█▊        | 13/70 [00:00<00:03, 16.81it/s]Requesting API:  21%|██▏       | 15/70 [00:01<00:03, 17.40it/s]Requesting API:  24%|██▍       | 17/70 [00:01<00:03, 17.27it/s]Requesting API:  27%|██▋       | 19/70 [00:01<00:03, 15.89it/s]Requesting API:  30%|███       | 21/70 [00:01<00:03, 14.88it/s]Requesting API:  33%|███▎      | 23/70 [00:01<00:03, 14.72it/s]Requesting API:  36%|███▌      | 25/70 [00:01<00:02, 15.04it/s]Requesting API:  39%|███▊      | 27/70 [00:01<00:03, 14.05it/s]Requesting API:  41%|████▏     | 29/70 [00:01<00:02, 14.60it/s]Requesting API:  44%|████▍     | 31/70 [00:02<00:02, 15.16it/s]Requesting API:  47%|████▋     | 33/70 [00:02<00:02, 14.41it/s]Requesting API:  50%|█████     | 35/70 [00:02<00:02, 13.85it/s]Requesting API:  53%|█████▎    | 37/70 [00:02<00:02, 14.31it/s]Requesting API:  56%|█████▌    | 39/70 [00:02<00:02, 14.44it/s]Requesting API:  59%|█████▊    | 41/70 [00:02<00:01, 14.69it/s]Requesting API:  61%|██████▏   | 43/70 [00:02<00:01, 15.09it/s]Requesting API:  64%|██████▍   | 45/70 [00:03<00:01, 14.73it/s]Requesting API:  67%|██████▋   | 47/70 [00:03<00:01, 15.21it/s]Requesting API:  70%|███████   | 49/70 [00:03<00:01, 15.16it/s]Requesting API:  73%|███████▎  | 51/70 [00:03<00:01, 15.41it/s]Requesting API:  76%|███████▌  | 53/70 [00:03<00:01, 15.15it/s]Requesting API:  79%|███████▊  | 55/70 [00:03<00:00, 15.18it/s]Requesting API:  81%|████████▏ | 57/70 [00:03<00:00, 15.16it/s]Requesting API:  84%|████████▍ | 59/70 [00:03<00:00, 15.95it/s]Requesting API:  87%|████████▋ | 61/70 [00:04<00:00, 16.46it/s]Requesting API:  90%|█████████ | 63/70 [00:04<00:00, 17.29it/s]Requesting API:  93%|█████████▎| 65/70 [00:04<00:00, 17.31it/s]Requesting API:  96%|█████████▌| 67/70 [00:04<00:00, 17.04it/s]Requesting API:  99%|█████████▊| 69/70 [00:04<00:00, 17.03it/s]Requesting API: 100%|██████████| 70/70 [00:04<00:00, 15.23it/s]
+fatal: Not a valid object name HEAD
+2026-09-28:22:33:49 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-09-28:22:33:49 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to results\raw\mmlu_pilot\gemma3-4b-native\tcc-model/*.jsonl
+local-chat-completions ({'model': 'tcc-model', 'base_url': 'http://127.0.0.1:8090/v1/chat/completions', 'tokenizer_backend': 'none', 'tokenized_requests': False, 'num_concurrent': 8, 'max_length': 2048, 'max_retries': 3, 'timeout': 300}), gen_kwargs: ({}), limit: 70.0, num_fewshot: 0, batch_size: 1
+|     Tasks     |Version|  Filter   |n-shot|  Metric   |   |Value |   |Stderr|
+|---------------|------:|-----------|-----:|-----------|---|-----:|---|-----:|
+|mmlu_pro_direct|      1|letter-only|     0|exact_match|↑  |0.2857|±  |0.0544|
+

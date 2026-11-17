@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Se utilizar estes artefatos experimentais, cite este trabalho e a versão v1.0.0 do repositório."
+type: software
+version: 1.0.0
+date-released: 2026-11-17
+repository-code: "https://github.com/JoaoVittorIshida/tcc-quantizacao-llms-locais"
+url: "https://github.com/JoaoVittorIshida/tcc-quantizacao-llms-locais/releases/tag/v1.0.0"
+license: MIT
+title: "Avaliação do impacto da quantização no desempenho e na eficiência de modelos de linguagem executados localmente"
+authors:
+  - family-names: "Ishida de Sousa"
+    given-names: "João Vittor"
+    affiliation: "IFSP Campus Piracicaba"
+preferred-citation:
+  type: generic
+  title: "Avaliação do impacto da quantização no desempenho e na eficiência de modelos de linguagem executados localmente"
+  authors:
+    - family-names: "Ishida de Sousa"
+      given-names: "João Vittor"
+      affiliation: "IFSP Campus Piracicaba"
+  year: 2026
+  version: 1.0.0
+  url: "https://github.com/JoaoVittorIshida/tcc-quantizacao-llms-locais/releases/tag/v1.0.0"
+  notes: "Trabalho de Conclusão de Curso, Engenharia de Computação, IFSP Campus Piracicaba. Orientadora: Profa. Dra. Wanessa Machado do Amaral. MIT aplica-se ao código próprio e à documentação de software; consultar LICENSING_NOTES.md para dados e componentes externos."

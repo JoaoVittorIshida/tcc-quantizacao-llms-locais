@@ -1,0 +1,29 @@
+task: mmlu_pro_direct
+dataset_path: TIGER-Lab/MMLU-Pro
+dataset_kwargs:
+  revision: b189ec765aa7ed75c8acfea42df31fdae71f97be
+test_split: test
+output_type: generate_until
+doc_to_text: !function mmlu_pro_direct_utils.doc_to_text
+doc_to_target: answer
+num_fewshot: 0
+generation_kwargs:
+  until:
+    - "\n"
+  max_gen_toks: 8
+  do_sample: false
+  temperature: 0.0
+filter_list:
+  - name: letter-only
+    filter:
+      - function: regex
+        regex_pattern: '^\s*(?:(?i:answer)\s*:\s*)?([A-J])\b'
+      - function: take_first
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: false
+    ignore_punctuation: false
+metadata:
+  version: 1.0

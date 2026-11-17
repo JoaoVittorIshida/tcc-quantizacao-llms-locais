@@ -1,0 +1,28 @@
+{
+  "model": "gemma3-4b",
+  "quantization": "Q4_K_M",
+  "perplexity": 17.3831,
+  "reported_uncertainty": 0.1724,
+  "duration_s": 49.56722807884216,
+  "dataset_sha256": "bfe9eb16ab9987fb88bde4ea9a30a00f2a45db01dfc14bad78d05325789c4f12",
+  "args": [
+    "-f",
+    "datasets\\wiki.test.raw",
+    "-c",
+    "512",
+    "-b",
+    "2048",
+    "-ub",
+    "512",
+    "-ngl",
+    "all",
+    "-fa",
+    "off",
+    "-fit",
+    "off",
+    "-ctk",
+    "f16",
+    "-ctv",
+    "f16"
+  ]
+}

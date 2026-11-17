@@ -1,0 +1,34 @@
+Registro do ambiente - 2026-09-28 (America/Sao_Paulo)
+
+SO: Microsoft Windows 11 Home, build 26200, x64
+GPU: NVIDIA GeForce RTX 5070 Ti
+VRAM total reportada pelo nvidia-smi: 16303 MiB
+Compute capability: 12.0
+Driver NVIDIA: 617.14
+CUDA Toolkit / nvcc: 13.4.59
+CPU: AMD Ryzen 7 9700X 8-Core Processor
+RAM fisica: 31.58 GiB
+
+Git: 2.50.1.windows.1
+Python: 3.12.10
+CMake: 4.4.3
+Ninja: 1.13.2
+lm-evaluation-harness: 0.4.13
+huggingface-hub: 0.36.0
+sentencepiece: 0.2.2
+protobuf: 4.25.9
+numpy: 2.4.1
+transformers: 4.57.6
+torch: 2.13.0+cu130
+MSVC: 19.44.35217.0
+
+llama.cpp: 1c4729414deba3bcacef6a5614e2ca04d069be3a
+Build: Release, GGML_CUDA=ON, CMAKE_CUDA_ARCHITECTURES=120 (llama.cpp seleciona 120a)
+Validacao: cinco executaveis gerados; llama-cli detecta CUDA0; llama-bench, llama-quantize, llama-perplexity e llama-server iniciam.
+Execucao: adicionar CUDA\v13.4\bin\x64 e CUDA\v13.4\bin ao PATH da sessao PowerShell.
+
+Checkpoints originais:
+google/gemma-3-4b-it @ 093f9f388b31de276ce2de164bdc2081324b9767
+Qwen/Qwen3-4B @ 1cfa9a7208912126459214e8b04321603b3df60c
+Gemma: 15 arquivos, 8639629983 bytes; metadados e SHA-256 LFS conferidos.
+Qwen: 13 arquivos, 8060926626 bytes; metadados e SHA-256 LFS conferidos.

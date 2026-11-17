@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "path": "V2/TCC_V2_ORIENTADORA.docx",
+      "sha256": "cba4e13713868e2eb3485ae1122ad719c3b171abde2602ec7a0f7ab022220f35"
+    },
+    {
+      "path": "V2/TCC_V2_ORIENTADORA.pdf",
+      "sha256": "46754b941c26894f6f862401cf004d723f78d4942491050e43d462e71156cf49"
+    },
+    {
+      "path": "V2/TCC_V2_ORIENTADORA.md",
+      "sha256": "09f60dcbc62e9b454a928cd8d34d417e1919f235b91afc2494b85380469b347e"
+    }
+  ],
+  "pdf_pages": 50,
+  "reading": "DOCX extraído de OOXML; PDF lido em todas as 50 páginas; Markdown completo consultado. Não se distribui o texto do TCC nem seu identificador estudantil."
+}

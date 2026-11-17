@@ -1,0 +1,1779 @@
+[
+  {
+    "path": "requirements.txt",
+    "source": "requirements.txt",
+    "size": 232,
+    "source_size": 232,
+    "sha256": "6f8a750126226e422c63068b1fe98df62e6c6c4fa530bd2119365b38441216df",
+    "source_sha256": "6f8a750126226e422c63068b1fe98df62e6c6c4fa530bd2119365b38441216df",
+    "purpose": "Ambiente original sem atualização de versões",
+    "relation": "Metodologia 3.2",
+    "changes": []
+  },
+  {
+    "path": "environment.txt",
+    "source": "environment.txt",
+    "size": 1203,
+    "source_size": 1203,
+    "sha256": "42e37e188de40a24261ee6959bbc038d11e05d17b0e7bd5159c359c114e52fdb",
+    "source_sha256": "42e37e188de40a24261ee6959bbc038d11e05d17b0e7bd5159c359c114e52fdb",
+    "purpose": "Ambiente original sem atualização de versões",
+    "relation": "Metodologia 3.2",
+    "changes": []
+  },
+  {
+    "path": "analysis/results.csv",
+    "source": "analysis/results.csv",
+    "size": 4037,
+    "source_size": 4037,
+    "sha256": "091f19a313157de822effd597550f16b7bf0273c5a6a5573c5f349ee3a34efe3",
+    "source_sha256": "091f19a313157de822effd597550f16b7bf0273c5a6a5573c5f349ee3a34efe3",
+    "purpose": "CSV consolidado original e verificações de carga",
+    "relation": "Tabelas 1–6; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "analysis/validation.csv",
+    "source": "analysis/validation.csv",
+    "size": 3378,
+    "source_size": 3378,
+    "sha256": "8bcb26b78f59f9172c6e342d20ab3a6fa9ece763dc5f5fdbf453e8aa61527763",
+    "source_sha256": "8bcb26b78f59f9172c6e342d20ab3a6fa9ece763dc5f5fdbf453e8aa61527763",
+    "purpose": "CSV consolidado original e verificações de carga",
+    "relation": "Tabelas 1–6; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "scripts/benchmark.py",
+    "source": "scripts/benchmark.py",
+    "size": 4160,
+    "source_size": 4160,
+    "sha256": "c11c52e6b218d439d5249eefe3c6617cc3bb61205c1120c1e55d3ab278e69fcb",
+    "source_sha256": "c11c52e6b218d439d5249eefe3c6617cc3bb61205c1120c1e55d3ab278e69fcb",
+    "purpose": "Pipeline experimental e preparação/verificação dos checkpoints",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "scripts/build_llama.ps1",
+    "source": "scripts/build_llama.ps1",
+    "size": 1710,
+    "source_size": 1710,
+    "sha256": "9e7a5854500167aa12060540ecb6bd08e37f25373615cf41e4131777aea0c01a",
+    "source_sha256": "9e7a5854500167aa12060540ecb6bd08e37f25373615cf41e4131777aea0c01a",
+    "purpose": "Pipeline experimental e preparação/verificação dos checkpoints",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "scripts/perplexity.py",
+    "source": "scripts/perplexity.py",
+    "size": 2727,
+    "source_size": 2727,
+    "sha256": "cb8ccb0aa9917c166de90440ac57deb2d7040867512622424c95eaf954f76ba1",
+    "source_sha256": "cb8ccb0aa9917c166de90440ac57deb2d7040867512622424c95eaf954f76ba1",
+    "purpose": "Pipeline experimental e preparação/verificação dos checkpoints",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "scripts/prepare_wikitext.py",
+    "source": "scripts/prepare_wikitext.py",
+    "size": 1089,
+    "source_size": 1128,
+    "sha256": "4f2f68b4ea724c3e340f22e94c5066dcaf7188899775286d8f0db7a0de1cc083",
+    "source_sha256": "b0114827d341fd772ace3236f9a1b4eaa1e13c00dbab91f2e99dc449c515a300",
+    "purpose": "Pipeline experimental e preparação/verificação dos checkpoints",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "adaptação documentada do código para a estrutura pública"
+    ]
+  },
+  {
+    "path": "scripts/quality.py",
+    "source": "scripts/quality.py",
+    "size": 6502,
+    "source_size": 6513,
+    "sha256": "45fa39f6fef61f829e886c37a519b542c6b686ea09682f11d87f952f15f1224b",
+    "source_sha256": "4f109e9aa40eb20ac777ebb7a5f92a8ef4bf7374aac2c25a3ad1fc2899dd8e9e",
+    "purpose": "Pipeline experimental e preparação/verificação dos checkpoints",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "adaptação documentada do código para a estrutura pública"
+    ]
+  },
+  {
+    "path": "scripts/quantize.ps1",
+    "source": "scripts/quantize.ps1",
+    "size": 2090,
+    "source_size": 2090,
+    "sha256": "e486350af4652cd30bdf873ba9bfb03d4b5180ffdb9817c7078780e5b70c0ba4",
+    "source_sha256": "e486350af4652cd30bdf873ba9bfb03d4b5180ffdb9817c7078780e5b70c0ba4",
+    "purpose": "Pipeline experimental e preparação/verificação dos checkpoints",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "scripts/results.py",
+    "source": "scripts/results.py",
+    "size": 6112,
+    "source_size": 6112,
+    "sha256": "1af8aa83544654ffec9b868b5d17cf4b3cf03bf990ac07cfacd2de26600ef957",
+    "source_sha256": "1af8aa83544654ffec9b868b5d17cf4b3cf03bf990ac07cfacd2de26600ef957",
+    "purpose": "Pipeline experimental e preparação/verificação dos checkpoints",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "scripts/validate_all.ps1",
+    "source": "scripts/validate_all.ps1",
+    "size": 1442,
+    "source_size": 1442,
+    "sha256": "6a4898368f2f9685cf3546ddd727c65d641d2ecb654cdc1ef9c98a751349fb8c",
+    "source_sha256": "6a4898368f2f9685cf3546ddd727c65d641d2ecb654cdc1ef9c98a751349fb8c",
+    "purpose": "Pipeline experimental e preparação/verificação dos checkpoints",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "scripts/validation_report.py",
+    "source": "scripts/validation_report.py",
+    "size": 1812,
+    "source_size": 1812,
+    "sha256": "76f8f1aebc4302f48eb6cc30334d8ab692d8f4c3e49455d8e930f3567b5910a0",
+    "source_sha256": "76f8f1aebc4302f48eb6cc30334d8ab692d8f4c3e49455d8e930f3567b5910a0",
+    "purpose": "Pipeline experimental e preparação/verificação dos checkpoints",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "scripts/verify_checkpoints.py",
+    "source": "scripts/verify_checkpoints.py",
+    "size": 1614,
+    "source_size": 1614,
+    "sha256": "88c00a9697c69b273aac962f46731b5516e64f5d1a1ee3260b7c4b17921f3d1b",
+    "source_sha256": "88c00a9697c69b273aac962f46731b5516e64f5d1a1ee3260b7c4b17921f3d1b",
+    "purpose": "Pipeline experimental e preparação/verificação dos checkpoints",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "scripts/verify_results.py",
+    "source": "scripts/verify_results.py",
+    "size": 3081,
+    "source_size": 3081,
+    "sha256": "f9600dde662727ad9fb094f5a458f8a7498eba372c1f1608bb5cf3950909e758",
+    "source_sha256": "f9600dde662727ad9fb094f5a458f8a7498eba372c1f1608bb5cf3950909e758",
+    "purpose": "Pipeline experimental e preparação/verificação dos checkpoints",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "configs/mmlu_pro_direct.yaml",
+    "source": "analysis/tasks/mmlu_pro_direct.yaml",
+    "size": 684,
+    "source_size": 684,
+    "sha256": "b0202b359b8acd7f26bcc1f1e5a093b2bd7c193780d376fd0e4d6c54710713df",
+    "source_sha256": "b0202b359b8acd7f26bcc1f1e5a093b2bd7c193780d376fd0e4d6c54710713df",
+    "purpose": "Tarefa e prompt/extrator MMLU-Pro",
+    "relation": "Metodologia 3.6.3; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "configs/mmlu_pro_direct_utils.py",
+    "source": "analysis/tasks/mmlu_pro_direct_utils.py",
+    "size": 469,
+    "source_size": 469,
+    "sha256": "6348f1e7c525cb46ffbcce5b5db9dd0591402e6075f8123bc723c9cbb5a1f712",
+    "source_sha256": "6348f1e7c525cb46ffbcce5b5db9dd0591402e6075f8123bc723c9cbb5a1f712",
+    "purpose": "Tarefa e prompt/extrator MMLU-Pro",
+    "relation": "Metodologia 3.6.3; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "datasets/wiki.test.metadata.json",
+    "source": "datasets/wiki.test.metadata.json",
+    "size": 392,
+    "source_size": 392,
+    "sha256": "566fb602559a5a2408a0f7f9d74d3d6a31a31236e5ac534fc2ed908a8718097b",
+    "source_sha256": "566fb602559a5a2408a0f7f9d74d3d6a31a31236e5ac534fc2ed908a8718097b",
+    "purpose": "Revisão, pré-processamento e hash do corpus; texto não distribuído",
+    "relation": "Metodologia 3.6.2",
+    "changes": []
+  },
+  {
+    "path": "results/processed/gemma3-4b-native-benchmark.json",
+    "source": "results/processed/gemma3-4b-native-benchmark.json",
+    "size": 1001,
+    "source_size": 1001,
+    "sha256": "23ff4cd1ae34c7ac16f6291ca855f4da42a1ac17f25509e8ee7566596f018228",
+    "source_sha256": "23ff4cd1ae34c7ac16f6291ca855f4da42a1ac17f25509e8ee7566596f018228",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/gemma3-4b-native-mmlu-full.json",
+    "source": "results/processed/gemma3-4b-native-mmlu-full.json",
+    "size": 1139,
+    "source_size": 1139,
+    "sha256": "6e11c52d2d60ed80110cded9e67b7feea3f6260ceabbf0d9e11e298d0457a772",
+    "source_sha256": "6e11c52d2d60ed80110cded9e67b7feea3f6260ceabbf0d9e11e298d0457a772",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/gemma3-4b-native-mmlu-pilot.json",
+    "source": "results/processed/gemma3-4b-native-mmlu-pilot.json",
+    "size": 1139,
+    "source_size": 1139,
+    "sha256": "2e85ae25b63dff2882ddf557fdb5d34c188ac40dcf2c2f1a0697e0b48787d9e9",
+    "source_sha256": "2e85ae25b63dff2882ddf557fdb5d34c188ac40dcf2c2f1a0697e0b48787d9e9",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/gemma3-4b-native-perplexity.json",
+    "source": "results/processed/gemma3-4b-native-perplexity.json",
+    "size": 501,
+    "source_size": 545,
+    "sha256": "6883e4d76d44309b54d0734daddfa31bec38bf108ea6e16e9b23d838c6e36209",
+    "source_sha256": "b7c861d4657098b84eb0e5a02862711e7ca86ce64606f24c2633bb7fa46eb3a8",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/processed/gemma3-4b-q2_k-benchmark.json",
+    "source": "results/processed/gemma3-4b-q2_k-benchmark.json",
+    "size": 998,
+    "source_size": 998,
+    "sha256": "01183ca06d6f57b3445f6e8044b4605163261ea9e8453500b6abd65a21fcf10d",
+    "source_sha256": "01183ca06d6f57b3445f6e8044b4605163261ea9e8453500b6abd65a21fcf10d",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/gemma3-4b-q2_k-mmlu-full.json",
+    "source": "results/processed/gemma3-4b-q2_k-mmlu-full.json",
+    "size": 1136,
+    "source_size": 1136,
+    "sha256": "1ed0b10bdccc16b1a6a61fd3108af40f7d7a647a49d1b4b4a713ecf3bc22dbd7",
+    "source_sha256": "1ed0b10bdccc16b1a6a61fd3108af40f7d7a647a49d1b4b4a713ecf3bc22dbd7",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/gemma3-4b-q2_k-perplexity.json",
+    "source": "results/processed/gemma3-4b-q2_k-perplexity.json",
+    "size": 486,
+    "source_size": 530,
+    "sha256": "eb5d98d1321b9deb2fe800c8350a7f3a0ff4675dd0088993ba2a4f31d6df0d0f",
+    "source_sha256": "35bb2d77f8b5276de1e341a78cc323d6fe4d07af76c7306ba709b3d9bb2875b8",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/processed/gemma3-4b-q4_k_m-benchmark.json",
+    "source": "results/processed/gemma3-4b-q4_k_m-benchmark.json",
+    "size": 996,
+    "source_size": 996,
+    "sha256": "1ade355e52c495cdcacdbe8ee5d9629b1b755e0080d007e95b93d72e4e6cc466",
+    "source_sha256": "1ade355e52c495cdcacdbe8ee5d9629b1b755e0080d007e95b93d72e4e6cc466",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/gemma3-4b-q4_k_m-mmlu-full.json",
+    "source": "results/processed/gemma3-4b-q4_k_m-mmlu-full.json",
+    "size": 1140,
+    "source_size": 1140,
+    "sha256": "7b86a69dbb937325fecd569568cf6cb8c3a0eca4172b7fe44fb5db4987b29e4a",
+    "source_sha256": "7b86a69dbb937325fecd569568cf6cb8c3a0eca4172b7fe44fb5db4987b29e4a",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/gemma3-4b-q4_k_m-perplexity.json",
+    "source": "results/processed/gemma3-4b-q4_k_m-perplexity.json",
+    "size": 501,
+    "source_size": 545,
+    "sha256": "0e701361ba6ca53ce33d066e30f2eceaaf1ad52cb2f6b769c2ee1fabe2f2f08d",
+    "source_sha256": "293059221d9fc1db943f4d2695d7ab3a5aa2e4f1c1af3e9bd236414f8c8d73f4",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/processed/gemma3-4b-q6_k-benchmark.json",
+    "source": "results/processed/gemma3-4b-q6_k-benchmark.json",
+    "size": 997,
+    "source_size": 997,
+    "sha256": "93be8293efb7ae8efdc3a8071d0e35c957f2ba5c59d293e18c1bd7b19da9553f",
+    "source_sha256": "93be8293efb7ae8efdc3a8071d0e35c957f2ba5c59d293e18c1bd7b19da9553f",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/gemma3-4b-q6_k-mmlu-full.json",
+    "source": "results/processed/gemma3-4b-q6_k-mmlu-full.json",
+    "size": 1134,
+    "source_size": 1134,
+    "sha256": "132a7bae26efe02a7daeac16f232efd96c636764d6415595f1b8d3615518f5c9",
+    "source_sha256": "132a7bae26efe02a7daeac16f232efd96c636764d6415595f1b8d3615518f5c9",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/gemma3-4b-q6_k-perplexity.json",
+    "source": "results/processed/gemma3-4b-q6_k-perplexity.json",
+    "size": 501,
+    "source_size": 545,
+    "sha256": "a3ed4b509728a04752803cd9668dee5a97f580e58f3ee55ec08730d55a1c912e",
+    "source_sha256": "447b39c8d60f5bbdd8d9eeda3928df6b747530d7b946da36cc875cda77f4123a",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/processed/gemma3-4b-q8_0-benchmark.json",
+    "source": "results/processed/gemma3-4b-q8_0-benchmark.json",
+    "size": 998,
+    "source_size": 998,
+    "sha256": "55bb93d37989554b9e97277143e785419a15d10cfe97b96bb3de79d309b33f68",
+    "source_sha256": "55bb93d37989554b9e97277143e785419a15d10cfe97b96bb3de79d309b33f68",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/gemma3-4b-q8_0-mmlu-full.json",
+    "source": "results/processed/gemma3-4b-q8_0-mmlu-full.json",
+    "size": 1134,
+    "source_size": 1134,
+    "sha256": "93714d4963c4d9b329ec20bc030934b2d4197b7c1b0357fac537acaeb065a968",
+    "source_sha256": "93714d4963c4d9b329ec20bc030934b2d4197b7c1b0357fac537acaeb065a968",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/gemma3-4b-q8_0-perplexity.json",
+    "source": "results/processed/gemma3-4b-q8_0-perplexity.json",
+    "size": 500,
+    "source_size": 544,
+    "sha256": "974cd3d897e8cd0228e7309eed6f87692003149b08675e232aaab619c719ae91",
+    "source_sha256": "e5719c9cf65b1ce4ca8d799baa745753c03007c7e69c41774511a78d8f41759d",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/processed/qwen3-4b-native-benchmark.json",
+    "source": "results/processed/qwen3-4b-native-benchmark.json",
+    "size": 998,
+    "source_size": 998,
+    "sha256": "e6da9c3b2262fb5c2e1cc2304326f259460d9143d6bc58e0081816406e4d33c5",
+    "source_sha256": "e6da9c3b2262fb5c2e1cc2304326f259460d9143d6bc58e0081816406e4d33c5",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/qwen3-4b-native-mmlu-full.json",
+    "source": "results/processed/qwen3-4b-native-mmlu-full.json",
+    "size": 1138,
+    "source_size": 1138,
+    "sha256": "ef170f61d7e9d3c2afa2887c72c698a9a3f4311f55ab4593e6cff504f83a1ccb",
+    "source_sha256": "ef170f61d7e9d3c2afa2887c72c698a9a3f4311f55ab4593e6cff504f83a1ccb",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/qwen3-4b-native-mmlu-pilot.json",
+    "source": "results/processed/qwen3-4b-native-mmlu-pilot.json",
+    "size": 1137,
+    "source_size": 1137,
+    "sha256": "a0a61aec5167b1d75c3d5ddc2997a28a68ae5ac17ae7c41c8957cd8af974f501",
+    "source_sha256": "a0a61aec5167b1d75c3d5ddc2997a28a68ae5ac17ae7c41c8957cd8af974f501",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/qwen3-4b-native-perplexity.json",
+    "source": "results/processed/qwen3-4b-native-perplexity.json",
+    "size": 502,
+    "source_size": 546,
+    "sha256": "c0256fe6c65c6b6a024c989f6afa295da619a7f1079a6f7ae6b3b4dd79427163",
+    "source_sha256": "be29a55e6e983d4c889a01162128b2058fbedea1ba5c56553027e25a5c803dcc",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/processed/qwen3-4b-q2_k-benchmark.json",
+    "source": "results/processed/qwen3-4b-q2_k-benchmark.json",
+    "size": 993,
+    "source_size": 993,
+    "sha256": "7e2aa0b1fa66b4fdca956c772ef6d3689e78557564ce7dd06632312edcac88ea",
+    "source_sha256": "7e2aa0b1fa66b4fdca956c772ef6d3689e78557564ce7dd06632312edcac88ea",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/qwen3-4b-q2_k-mmlu-full.json",
+    "source": "results/processed/qwen3-4b-q2_k-mmlu-full.json",
+    "size": 1133,
+    "source_size": 1133,
+    "sha256": "190107f8f4774afaa06131cd724975637be82f72b2df86abf21ed0fbf3144c61",
+    "source_sha256": "190107f8f4774afaa06131cd724975637be82f72b2df86abf21ed0fbf3144c61",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/qwen3-4b-q2_k-perplexity.json",
+    "source": "results/processed/qwen3-4b-q2_k-perplexity.json",
+    "size": 499,
+    "source_size": 543,
+    "sha256": "695114a1c79264d974e724fa504435326f941869681d8477c434a62ae559260f",
+    "source_sha256": "76daf59431fba947ef576c39c63a57f52b4322393ba8894dc46c266dc79aaa74",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/processed/qwen3-4b-q4_k_m-benchmark.json",
+    "source": "results/processed/qwen3-4b-q4_k_m-benchmark.json",
+    "size": 996,
+    "source_size": 996,
+    "sha256": "edc59c9612c4d2fceb0e9c910c87a1aa449f4945aa6bad1dac3280bf6114551d",
+    "source_sha256": "edc59c9612c4d2fceb0e9c910c87a1aa449f4945aa6bad1dac3280bf6114551d",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/qwen3-4b-q4_k_m-mmlu-full.json",
+    "source": "results/processed/qwen3-4b-q4_k_m-mmlu-full.json",
+    "size": 1137,
+    "source_size": 1137,
+    "sha256": "d50db9b1a7e92348aa9410d022ea1296e4b3fb946c5c3cb07d767e604d554a85",
+    "source_sha256": "d50db9b1a7e92348aa9410d022ea1296e4b3fb946c5c3cb07d767e604d554a85",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/qwen3-4b-q4_k_m-perplexity.json",
+    "source": "results/processed/qwen3-4b-q4_k_m-perplexity.json",
+    "size": 501,
+    "source_size": 545,
+    "sha256": "f0ada739136d6dc3ea9cfd81d0c417af8982550082543fe8c5b3470b56478d69",
+    "source_sha256": "cb099ebe92b011ae3ea24e6f6b890c68c58f9f8ceff99c7d3bfd9eb5fd2f511f",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/processed/qwen3-4b-q6_k-benchmark.json",
+    "source": "results/processed/qwen3-4b-q6_k-benchmark.json",
+    "size": 991,
+    "source_size": 991,
+    "sha256": "9094723f87f0c84c4c4bec778aeba21c1adb81120f7ebcc23e94b16bb010c01e",
+    "source_sha256": "9094723f87f0c84c4c4bec778aeba21c1adb81120f7ebcc23e94b16bb010c01e",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/qwen3-4b-q6_k-mmlu-full.json",
+    "source": "results/processed/qwen3-4b-q6_k-mmlu-full.json",
+    "size": 1134,
+    "source_size": 1134,
+    "sha256": "13a6335e6f1dc8cbae741080b75ae9f3a10ac4279275df5ac236f7a3624d5cf7",
+    "source_sha256": "13a6335e6f1dc8cbae741080b75ae9f3a10ac4279275df5ac236f7a3624d5cf7",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/qwen3-4b-q6_k-perplexity.json",
+    "source": "results/processed/qwen3-4b-q6_k-perplexity.json",
+    "size": 500,
+    "source_size": 544,
+    "sha256": "f523601f6fe35a5a5f017472e602aad39b49ac81cd8808f31e42fb3a3ecdb054",
+    "source_sha256": "cb8d5965d0830ba6c278dbb3893a060961f4fc84a0069648097b9d814262e9b9",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/processed/qwen3-4b-q8_0-benchmark.json",
+    "source": "results/processed/qwen3-4b-q8_0-benchmark.json",
+    "size": 994,
+    "source_size": 994,
+    "sha256": "951e8063ac3b086dfa34634cfaf386a91074a84823d8c3c551d2d52382177692",
+    "source_sha256": "951e8063ac3b086dfa34634cfaf386a91074a84823d8c3c551d2d52382177692",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/qwen3-4b-q8_0-mmlu-full.json",
+    "source": "results/processed/qwen3-4b-q8_0-mmlu-full.json",
+    "size": 1133,
+    "source_size": 1133,
+    "sha256": "b08bbc01ed46814b51732e2ef641aa821fe221f49670ee495f95b2e18936daf2",
+    "source_sha256": "b08bbc01ed46814b51732e2ef641aa821fe221f49670ee495f95b2e18936daf2",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "results/processed/qwen3-4b-q8_0-perplexity.json",
+    "source": "results/processed/qwen3-4b-q8_0-perplexity.json",
+    "size": 498,
+    "source_size": 542,
+    "sha256": "27b45bd098822f2ff900c66561a71fcb741b05a0af5e8ac0a3846ecb5b633a1d",
+    "source_sha256": "ef0748efc1ada9c54e5de43dfd1b9a18432b995e872f3d88af14568b231a38e0",
+    "purpose": "Métricas, cinco amostras de velocidade, parâmetros e referências brutas",
+    "relation": "Metodologia 3.5–3.7; Tabelas 1–6",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-conversion.log",
+    "source": "results/raw/gemma3-4b-conversion.log",
+    "size": 55338,
+    "source_size": 55338,
+    "sha256": "31e3e114ac5679e490f891d30ff23a8a7d5746a15fdf1ce561a78bd647ac8a4f",
+    "source_sha256": "31e3e114ac5679e490f891d30ff23a8a7d5746a15fdf1ce561a78bd647ac8a4f",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/gemma3-4b-native-bench.json",
+    "source": "results/raw/gemma3-4b-native-bench.json",
+    "size": 2688,
+    "source_size": 2776,
+    "sha256": "4b17311be8f37a59e6fba62c7152c72a1c7fbeacbc489c8f8697a73a4c0edd72",
+    "source_sha256": "45e757c21001a140eab1b8d1ba70aaa7a070bc6c26b824175a7cdb53f9852aa2",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-native-bench.stderr.log",
+    "source": "results/raw/gemma3-4b-native-bench.stderr.log",
+    "size": 155,
+    "source_size": 155,
+    "sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "source_sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/gemma3-4b-native-mmlu-full-harness.log",
+    "source": "results/raw/gemma3-4b-native-mmlu-full-harness.log",
+    "size": 486864,
+    "source_size": 487016,
+    "sha256": "00931d69a4f974b0302104628d2accd9c356681246dd7731066b6202062a3578",
+    "source_sha256": "8b0dd5a199b415184257868d475c80e6634a372c7375b08c537384a71791df86",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-native-mmlu-pilot-harness.log",
+    "source": "results/raw/gemma3-4b-native-mmlu-pilot-harness.log",
+    "size": 6082,
+    "source_size": 6272,
+    "sha256": "0a138e0b5143008cf02b8071a432f46adb213a42c2e918f40e2311d8097921b6",
+    "source_sha256": "1e9d3d8c73f84ecbcb8996047fadb832734695283a4858161810f026b4e169b8",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-native-mmlu-pilot-server.log",
+    "source": "results/raw/gemma3-4b-native-mmlu-pilot-server.log",
+    "size": 57219,
+    "source_size": 57257,
+    "sha256": "182f5d6bba2eacb0cb4d4609eec5ac6f9c92a02d212bbb42b27d3a81d9e5ef44",
+    "source_sha256": "2d2adf64add67b8a8f0b7560858b2e127933a6772d343975cc60443bfcb11046",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-native-perplexity.log",
+    "source": "results/raw/gemma3-4b-native-perplexity.log",
+    "size": 8198,
+    "source_size": 8198,
+    "sha256": "df60f3f134690193e1e9fb8aebe4a6f32ed509013f4172e738decf5fce635093",
+    "source_sha256": "df60f3f134690193e1e9fb8aebe4a6f32ed509013f4172e738decf5fce635093",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/gemma3-4b-native-validation.log",
+    "source": "results/raw/gemma3-4b-native-validation.log",
+    "size": 418257,
+    "source_size": 420565,
+    "sha256": "115b2add8e9c1d5718f05be2423cd375fba840c00d3baa058ec87039ea474c33",
+    "source_sha256": "bb7a0e58137a1c8fec44930b6eb6402718d93c4cf5748a1a5052073e06fcab2b",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q2_k-bench.json",
+    "source": "results/raw/gemma3-4b-q2_k-bench.json",
+    "size": 2697,
+    "source_size": 2785,
+    "sha256": "6af2571451ace572246f3652018b068534019361b32d259f734fcfba00808217",
+    "source_sha256": "35e3305519935a7dec95aa89d4bf6b39996cd31fc88d6927f78dfe5c7cfe8efd",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q2_k-bench.stderr.log",
+    "source": "results/raw/gemma3-4b-q2_k-bench.stderr.log",
+    "size": 155,
+    "source_size": 155,
+    "sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "source_sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/gemma3-4b-q2_k-mmlu-full-harness.log",
+    "source": "results/raw/gemma3-4b-q2_k-mmlu-full-harness.log",
+    "size": 453191,
+    "source_size": 453343,
+    "sha256": "4e06ad44d85846d2cf3159d4f9b82a2937d4343964e946c06dacc2a1785cb142",
+    "source_sha256": "a5ac200cd697a10ecfb019dda502704816c9d7c1992640a51a4d07a0b711ba7e",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q2_k-perplexity-repeat.log",
+    "source": "results/raw/gemma3-4b-q2_k-perplexity-repeat.log",
+    "size": 8198,
+    "source_size": 8198,
+    "sha256": "32879f1bde0297ec4856e6874824fc1a146e8c9ad4ccab4d23a43b94dd19eba9",
+    "source_sha256": "32879f1bde0297ec4856e6874824fc1a146e8c9ad4ccab4d23a43b94dd19eba9",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/gemma3-4b-q2_k-perplexity.log",
+    "source": "results/raw/gemma3-4b-q2_k-perplexity.log",
+    "size": 8198,
+    "source_size": 8198,
+    "sha256": "05cdf49ed95b81cad419706be4376913f98f1eeb3e86890b3f376fa3b5547a92",
+    "source_sha256": "05cdf49ed95b81cad419706be4376913f98f1eeb3e86890b3f376fa3b5547a92",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/gemma3-4b-q2_k-quantization.log",
+    "source": "results/raw/gemma3-4b-q2_k-quantization.log",
+    "size": 68388,
+    "source_size": 68654,
+    "sha256": "0f17757896a10cd9a847c451db5dc0ed69a21eefc2659534b9f16fda9e9d82ad",
+    "source_sha256": "a1b76e838bd14c861cbe7826cb1c236d535fcaaf2f36236e612779615cf12dfe",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q2_k-validation.log",
+    "source": "results/raw/gemma3-4b-q2_k-validation.log",
+    "size": 416162,
+    "source_size": 418426,
+    "sha256": "bb287a234931ec618147ef466e77e2697f693a0beb562d5bdab50c0e5b82c405",
+    "source_sha256": "386c1248ce8cedc8981b11dab5012e8cfb97d4911b3ba442ed296faa881636ad",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q4_k_m-bench.json",
+    "source": "results/raw/gemma3-4b-q4_k_m-bench.json",
+    "size": 2698,
+    "source_size": 2786,
+    "sha256": "15b91cfccd1499e0515fb5b8064aed4abb960d6db45e8568dbddc1d0011005a1",
+    "source_sha256": "7341c0c2abc138565e694c48b5834666414c3f05160161f9591da6fc8f95427f",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q4_k_m-bench.stderr.log",
+    "source": "results/raw/gemma3-4b-q4_k_m-bench.stderr.log",
+    "size": 155,
+    "source_size": 155,
+    "sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "source_sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/gemma3-4b-q4_k_m-mmlu-full-harness.log",
+    "source": "results/raw/gemma3-4b-q4_k_m-mmlu-full-harness.log",
+    "size": 421654,
+    "source_size": 421806,
+    "sha256": "44058fc73187ca5654f6d70b93ac2256ba65d5ab381dbe59c8f4ed2fce86db9f",
+    "source_sha256": "efdb2811a47cf45e17ab7463c7e9e91e796d66f7e605379eaaef164e64a7abd3",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q4_k_m-perplexity.log",
+    "source": "results/raw/gemma3-4b-q4_k_m-perplexity.log",
+    "size": 8198,
+    "source_size": 8198,
+    "sha256": "634787ca8af06edee7ab960bba26d132e2d8a3310e52efc82eada38cc6f34c55",
+    "source_sha256": "634787ca8af06edee7ab960bba26d132e2d8a3310e52efc82eada38cc6f34c55",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/gemma3-4b-q4_k_m-quantization.log",
+    "source": "results/raw/gemma3-4b-q4_k_m-quantization.log",
+    "size": 68400,
+    "source_size": 68666,
+    "sha256": "33f8926878d50b241e516467fadb66d30b7f3f9fb882883141bc762a6e34f7c7",
+    "source_sha256": "f1045e6920f465d88fe4c7bdfa956b10e677bf73518791378e6d5fc5aa173fb1",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q4_k_m-validation.log",
+    "source": "results/raw/gemma3-4b-q4_k_m-validation.log",
+    "size": 417710,
+    "source_size": 420018,
+    "sha256": "2ff38b46a1437bb30d0a706730869e6d128523d775f57dd9b0deb6191902b5df",
+    "source_sha256": "ff4109dacd293e875f9497ac140da1d36b0f6ba9d155c0a32e7070c87b0978b4",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q6_k-bench.json",
+    "source": "results/raw/gemma3-4b-q6_k-bench.json",
+    "size": 2679,
+    "source_size": 2767,
+    "sha256": "b973cd38cf3b592c23822f73b84005e0d1dd66ccc98a1d9b4e40e84992806e0d",
+    "source_sha256": "27d5adc7978b85445e65eba3c217b48d36c26001defd9ea8b70bed03dd27e10e",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q6_k-bench.stderr.log",
+    "source": "results/raw/gemma3-4b-q6_k-bench.stderr.log",
+    "size": 155,
+    "source_size": 155,
+    "sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "source_sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/gemma3-4b-q6_k-mmlu-full-harness.log",
+    "source": "results/raw/gemma3-4b-q6_k-mmlu-full-harness.log",
+    "size": 451809,
+    "source_size": 451961,
+    "sha256": "31c5de3e95b693b708dafd5abe0dce6c25475805e9c3cc3ae5929010809cbe63",
+    "source_sha256": "7ea9ea43e21cc3dd1a2ec5da3fdf4cfb6366e18d4283f336626d6a9a8235c738",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q6_k-perplexity.log",
+    "source": "results/raw/gemma3-4b-q6_k-perplexity.log",
+    "size": 8198,
+    "source_size": 8198,
+    "sha256": "342ccb50507d3a7d74211afe9c16d50baf8567461b0de00dd7397e0ac8147c46",
+    "source_sha256": "342ccb50507d3a7d74211afe9c16d50baf8567461b0de00dd7397e0ac8147c46",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/gemma3-4b-q6_k-quantization.log",
+    "source": "results/raw/gemma3-4b-q6_k-quantization.log",
+    "size": 68388,
+    "source_size": 68654,
+    "sha256": "ae8f7d435673873627a185c64b5b126b04e57b981a8808b75af37618fe2f5b6f",
+    "source_sha256": "8671cc96a156c77d9fb60641544fde4094c4be687b4ef4704ebf7c452b157200",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q6_k-validation.log",
+    "source": "results/raw/gemma3-4b-q6_k-validation.log",
+    "size": 421910,
+    "source_size": 424306,
+    "sha256": "5d6fcd95f5356ea0897783666f2a966d2f564840e57edc3f057e03b8352df1d8",
+    "source_sha256": "9b632b8ff2d4cc123002f9dc6ca092b45d2c5821c77fbadeb44950527058bb5c",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q8_0-bench.json",
+    "source": "results/raw/gemma3-4b-q8_0-bench.json",
+    "size": 2681,
+    "source_size": 2769,
+    "sha256": "eca73e05334b4bac4e157147a20627c90dba0c0e4f52893f83a84e56fada96c1",
+    "source_sha256": "fbe11a863bfeab25f1e710658ca207d6192054a11029602466a788ec5b731edd",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q8_0-bench.stderr.log",
+    "source": "results/raw/gemma3-4b-q8_0-bench.stderr.log",
+    "size": 155,
+    "source_size": 155,
+    "sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "source_sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/gemma3-4b-q8_0-mmlu-full-harness.log",
+    "source": "results/raw/gemma3-4b-q8_0-mmlu-full-harness.log",
+    "size": 454870,
+    "source_size": 455022,
+    "sha256": "72a56d16ad3cdd86eea9f0da978d656d645f62f739444206bac8e230b25d6082",
+    "source_sha256": "90fb48ed059ce3d0044949f16dbac053b722f30df26bd4414dbc175ba2cc8170",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q8_0-perplexity.log",
+    "source": "results/raw/gemma3-4b-q8_0-perplexity.log",
+    "size": 8198,
+    "source_size": 8198,
+    "sha256": "b0651e2f5cff25c5246e31adc565c66b92006cd05bc28f983b3e2b79601ad2f6",
+    "source_sha256": "b0651e2f5cff25c5246e31adc565c66b92006cd05bc28f983b3e2b79601ad2f6",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/gemma3-4b-q8_0-quantization.log",
+    "source": "results/raw/gemma3-4b-q8_0-quantization.log",
+    "size": 68388,
+    "source_size": 68654,
+    "sha256": "7d1a17eec7c7e85135566019abbf58a87177ce122931367c6c96359f9201a686",
+    "source_sha256": "d34671d0276056dfcc497708592149846ffc75c16711f62c35cacf232bcf67b5",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/gemma3-4b-q8_0-validation.log",
+    "source": "results/raw/gemma3-4b-q8_0-validation.log",
+    "size": 418044,
+    "source_size": 420352,
+    "sha256": "71e7f34b2c5024cec3fc3cdb5c81009d25bbbfb9747fcdf5b92ddb359b271ea3",
+    "source_sha256": "4bb95733c096b800dabccf3ade2bd5beb5ddc5b1d7b8d64c131b15a076731cf9",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/mmlu_full/gemma3-4b-native/tcc-model/results_2026-09-28T22-49-15.925487.json",
+    "source": "results/raw/mmlu_full/gemma3-4b-native/tcc-model/results_2026-09-28T22-49-15.925487.json",
+    "size": 5585,
+    "source_size": 5673,
+    "sha256": "dbe261c55f2e7b64e103614c79dbd1330900234750c40d82d66ed4f898f5a1ba",
+    "source_sha256": "80878aad1942543652d5294bd3a358cb7f5a4844e5c391f64c3dd4cb21a47755",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/mmlu_full/gemma3-4b-q2_k/tcc-model/results_2026-09-28T23-40-29.868368.json",
+    "source": "results/raw/mmlu_full/gemma3-4b-q2_k/tcc-model/results_2026-09-28T23-40-29.868368.json",
+    "size": 5584,
+    "source_size": 5672,
+    "sha256": "a7953c95c3d6e3ba60b461821574242af4cfddc2c71cfd83f1efe2afa54f5b86",
+    "source_sha256": "81e6b5fadcba30b2dd967ec2843f20ee38684d9e6bd028b29a7fd33f5a9e51e3",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/mmlu_full/gemma3-4b-q4_k_m/tcc-model/results_2026-09-28T23-27-19.975204.json",
+    "source": "results/raw/mmlu_full/gemma3-4b-q4_k_m/tcc-model/results_2026-09-28T23-27-19.975204.json",
+    "size": 5586,
+    "source_size": 5674,
+    "sha256": "8476377a8a821358b617458c8adb6f4a95ab0fae509ea66875cf95505b61d190",
+    "source_sha256": "6728c763952f85dd1cc44991f83d6bbee0919f1748a2910098db92dfd1f6b2db",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/mmlu_full/gemma3-4b-q6_k/tcc-model/results_2026-09-28T23-15-03.922803.json",
+    "source": "results/raw/mmlu_full/gemma3-4b-q6_k/tcc-model/results_2026-09-28T23-15-03.922803.json",
+    "size": 5583,
+    "source_size": 5671,
+    "sha256": "92575bf22d40cc14912af8b2eec08f0ffe9ab56f7fe9d7d81a7c02f887ac770d",
+    "source_sha256": "dc62ecf729791e782715d188884ba1eae875e6a433eb81de128c25f8d9b35223",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/mmlu_full/gemma3-4b-q8_0/tcc-model/results_2026-09-28T23-02-00.375288.json",
+    "source": "results/raw/mmlu_full/gemma3-4b-q8_0/tcc-model/results_2026-09-28T23-02-00.375288.json",
+    "size": 5581,
+    "source_size": 5669,
+    "sha256": "f8cdde5de788c324a08d786fe5d1a43d0bbc8004a0a00471f298c1e8191d322f",
+    "source_sha256": "3979c33826bf2cb56bd982ba13703cf19ec538a535008ccf1e1e6d919928b7c1",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/mmlu_full/qwen3-4b-native/tcc-model/results_2026-09-28T23-51-25.375212.json",
+    "source": "results/raw/mmlu_full/qwen3-4b-native/tcc-model/results_2026-09-28T23-51-25.375212.json",
+    "size": 5585,
+    "source_size": 5673,
+    "sha256": "ae0e5e9a922a6ac771265984131fbefc7d68fb320b335fe6e8640afe5f1bc0af",
+    "source_sha256": "779674d273b3818efd9db839a12b669c9f72a86a60e791a06dae15d633f0245c",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/mmlu_full/qwen3-4b-q2_k/tcc-model/results_2026-09-29T00-29-42.461714.json",
+    "source": "results/raw/mmlu_full/qwen3-4b-q2_k/tcc-model/results_2026-09-29T00-29-42.461714.json",
+    "size": 5582,
+    "source_size": 5670,
+    "sha256": "83971c1e16f8b7008ace73dad659ddb4eb3e74f9e5771368e2f74e0b26e79cca",
+    "source_sha256": "57fdef8a0dd1789fb63932506179b0f5d6b75d420e1e5ab1ef5073c1fa2a9f19",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/mmlu_full/qwen3-4b-q4_k_m/tcc-model/results_2026-09-29T00-18-51.366985.json",
+    "source": "results/raw/mmlu_full/qwen3-4b-q4_k_m/tcc-model/results_2026-09-29T00-18-51.366985.json",
+    "size": 5585,
+    "source_size": 5673,
+    "sha256": "e54705c33987db5cf5bdda235f9cc374c20e648cb08494f54f407be99bb3f63b",
+    "source_sha256": "b8b588b993d9f030bc0eae5232d5c42040b4aa23c89d74428230289388bf31af",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/mmlu_full/qwen3-4b-q6_k/tcc-model/results_2026-09-29T00-10-16.185265.json",
+    "source": "results/raw/mmlu_full/qwen3-4b-q6_k/tcc-model/results_2026-09-29T00-10-16.185265.json",
+    "size": 5583,
+    "source_size": 5671,
+    "sha256": "2db474d7923514ca73ec0c5184b6e426bb6e1eb3356b8fbeb6dd404a901cca9b",
+    "source_sha256": "8e71223dc77175101a2a799e713b8644ac5fd3f198be2936dc0a78c8ae15bf0b",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/mmlu_full/qwen3-4b-q8_0/tcc-model/results_2026-09-29T00-00-35.983103.json",
+    "source": "results/raw/mmlu_full/qwen3-4b-q8_0/tcc-model/results_2026-09-29T00-00-35.983103.json",
+    "size": 5583,
+    "source_size": 5671,
+    "sha256": "99edd39e9c1fee151c02f8d261891b026b478c0c1dba8701509b1e561f1220d4",
+    "source_sha256": "7850b12d756b3a21aae6a5bdc1e6855fedefa62bf36fdc446cfb75fa4954fd4b",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/results_2026-09-28T22-33-49.972039.json",
+    "source": "results/raw/mmlu_pilot/gemma3-4b-native/tcc-model/results_2026-09-28T22-33-49.972039.json",
+    "size": 5682,
+    "source_size": 5770,
+    "sha256": "93072c24f2ff072537fbb425542490fbdcc4fe1b44087b6c634d33f3a818a628",
+    "source_sha256": "3cd187e88522dbe9c95124a8b9775401bfcd6c0bcf33419dc2a8cb8542de4887",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/mmlu_pilot/qwen3-4b-native/tcc-model/results_2026-09-28T22-34-31.530937.json",
+    "source": "results/raw/mmlu_pilot/qwen3-4b-native/tcc-model/results_2026-09-28T22-34-31.530937.json",
+    "size": 5682,
+    "source_size": 5770,
+    "sha256": "86abba1880c68866ade1b2388136e3e5e108232354ed8ec456b22cbf9944bc1a",
+    "source_sha256": "1086719dcaac376cc71e973488b540abd148b9cdb8ba346990a7f1655d473f5b",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/quantization_manifest.csv",
+    "source": "results/raw/quantization_manifest.csv",
+    "size": 2072,
+    "source_size": 2072,
+    "sha256": "fcea479242143c101ea93173f7fa23304dbdc650f63b26a223579fb349d7d1b0",
+    "source_sha256": "fcea479242143c101ea93173f7fa23304dbdc650f63b26a223579fb349d7d1b0",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-conversion.log",
+    "source": "results/raw/qwen3-4b-conversion.log",
+    "size": 50221,
+    "source_size": 50221,
+    "sha256": "2c058e0e04dc93694df10e1cb23585d8b375bdb0b913290005312738d6e8cd96",
+    "source_sha256": "2c058e0e04dc93694df10e1cb23585d8b375bdb0b913290005312738d6e8cd96",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-native-bench.json",
+    "source": "results/raw/qwen3-4b-native-bench.json",
+    "size": 2683,
+    "source_size": 2771,
+    "sha256": "7854138954e439c06f38f6c9ccb435a557dd17b5d4436ae6944b63a94c4ff014",
+    "source_sha256": "db3c01c48c760ad96a2f54897672e71f7268133270438d308f6f1b8634441b5d",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-native-bench.stderr.log",
+    "source": "results/raw/qwen3-4b-native-bench.stderr.log",
+    "size": 155,
+    "source_size": 155,
+    "sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "source_sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-native-mmlu-full-harness.log",
+    "source": "results/raw/qwen3-4b-native-mmlu-full-harness.log",
+    "size": 362710,
+    "source_size": 362862,
+    "sha256": "b314e8435ad5b022759b33c2be0f1a03a7c84f9a693b683aea8a42c9f0fa01b3",
+    "source_sha256": "5f7267899e1ff9a6d1f2a513c1fc5199695d13d3db36b96d21bec4cf41b88a70",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-native-mmlu-pilot-harness.log",
+    "source": "results/raw/qwen3-4b-native-mmlu-pilot-harness.log",
+    "size": 5491,
+    "source_size": 5681,
+    "sha256": "7fb918b3db60bc0899fc7489aaff20b8a3db946bed8523da30f56a36351cdcc9",
+    "source_sha256": "d71b90fe5633b61716ba003e1b1224e2cf7df2d1298b78c6a69c09d11df61f8f",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-native-mmlu-pilot-server.log",
+    "source": "results/raw/qwen3-4b-native-mmlu-pilot-server.log",
+    "size": 57072,
+    "source_size": 57110,
+    "sha256": "fdf3918c758c3303b1d65a703cd9026d355f510d404732b205dea52600721510",
+    "source_sha256": "228bdbcfcb2667081e6cc96a745b94f426ccda6748dc2b0ed10fa43cc7e7f5fc",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-native-perplexity.log",
+    "source": "results/raw/qwen3-4b-native-perplexity.log",
+    "size": 8366,
+    "source_size": 8366,
+    "sha256": "243b2096a0b0b9c7a2853366a0853a8d564f5398fb8188714ee7027cbda172d8",
+    "source_sha256": "243b2096a0b0b9c7a2853366a0853a8d564f5398fb8188714ee7027cbda172d8",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-native-validation.log",
+    "source": "results/raw/qwen3-4b-native-validation.log",
+    "size": 426939,
+    "source_size": 429247,
+    "sha256": "9d29d077984e175bfe605245d110c256e3981fdb99ead74785381f9ec8541c7f",
+    "source_sha256": "a7ba2b612f2259a65ef1b138004ac04e2f8cbcea4d1653377f334758ca3685f4",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q2_k-bench.json",
+    "source": "results/raw/qwen3-4b-q2_k-bench.json",
+    "size": 2692,
+    "source_size": 2780,
+    "sha256": "070cb5f09e9df94e7177f4d637708b2c3ff2dc32fe9f94cd80c88dcc2060497e",
+    "source_sha256": "d7b1ed48966ba3fa231c6e94067ca55b19967833d17dd3f9b6a36413d2fe11bb",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q2_k-bench.stderr.log",
+    "source": "results/raw/qwen3-4b-q2_k-bench.stderr.log",
+    "size": 155,
+    "source_size": 155,
+    "sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "source_sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-q2_k-mmlu-full-harness.log",
+    "source": "results/raw/qwen3-4b-q2_k-mmlu-full-harness.log",
+    "size": 365679,
+    "source_size": 365831,
+    "sha256": "d2834f7c3640f27d196ccdfa0f8e73316bfd6de713f4f7a84685db779db7289a",
+    "source_sha256": "f6766867d3d316532c71ea809e13c4a1b751c6e3b8a86556885f0e65197e074a",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q2_k-perplexity-repeat.log",
+    "source": "results/raw/qwen3-4b-q2_k-perplexity-repeat.log",
+    "size": 8367,
+    "source_size": 8367,
+    "sha256": "cc0a138c6b5748a78c0846db09845c73ae59d38f1d778a11624f2dfcd5201f2d",
+    "source_sha256": "cc0a138c6b5748a78c0846db09845c73ae59d38f1d778a11624f2dfcd5201f2d",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-q2_k-perplexity.log",
+    "source": "results/raw/qwen3-4b-q2_k-perplexity.log",
+    "size": 8367,
+    "source_size": 8367,
+    "sha256": "efbb0521a52325bfd4eada41c6749c1c434734d98bbf6ff48010335cc5fd24bd",
+    "source_sha256": "efbb0521a52325bfd4eada41c6749c1c434734d98bbf6ff48010335cc5fd24bd",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-q2_k-quantization.log",
+    "source": "results/raw/qwen3-4b-q2_k-quantization.log",
+    "size": 62888,
+    "source_size": 63154,
+    "sha256": "e8cec4bced361b0ab2a187ed672062c53b9c0591bc8592e49022803b2dddcad6",
+    "source_sha256": "b425adc8a63c056855098bcaa10ed188ac3b0aabaddb844f7f57ee88066b79f1",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q2_k-validation.log",
+    "source": "results/raw/qwen3-4b-q2_k-validation.log",
+    "size": 436337,
+    "source_size": 438865,
+    "sha256": "213bf950e53f0e2901bc29288682ac72a89a2f85257cbf79c179e65bcb353614",
+    "source_sha256": "20dbe1284160df3f88c363e18b9f905ec983217208d19ba03a9e160c8280e222",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q4_k_m-bench.json",
+    "source": "results/raw/qwen3-4b-q4_k_m-bench.json",
+    "size": 2696,
+    "source_size": 2784,
+    "sha256": "3659adfcb51d7bd4d468027e9eafad6dea8ec504acb5725fc80a93df455f694d",
+    "source_sha256": "82afc56d38b6896c70d102796999e184c1ab48136264269dc0c5c2bee79ac528",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q4_k_m-bench.stderr.log",
+    "source": "results/raw/qwen3-4b-q4_k_m-bench.stderr.log",
+    "size": 155,
+    "source_size": 155,
+    "sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "source_sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-q4_k_m-mmlu-full-harness.log",
+    "source": "results/raw/qwen3-4b-q4_k_m-mmlu-full-harness.log",
+    "size": 301977,
+    "source_size": 302129,
+    "sha256": "7fe5505f9159bbde461653b20f6f1dea9aeaefb043301274d499167b4c332b91",
+    "source_sha256": "14da77610c0bdc2e1ca1b0293ffbd0479c8185e6628be3fa5b5610b71a007174",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q4_k_m-perplexity.log",
+    "source": "results/raw/qwen3-4b-q4_k_m-perplexity.log",
+    "size": 8367,
+    "source_size": 8367,
+    "sha256": "9965f0433cdf1fa433f66a3d23cf9d625b433edac3d41b7a26c05af2a6d6c748",
+    "source_sha256": "9965f0433cdf1fa433f66a3d23cf9d625b433edac3d41b7a26c05af2a6d6c748",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-q4_k_m-quantization.log",
+    "source": "results/raw/qwen3-4b-q4_k_m-quantization.log",
+    "size": 62900,
+    "source_size": 63166,
+    "sha256": "aa4728f22d5e26b4b6776ccbdcae2de70b66d57aff2449dfc71c58a822a67396",
+    "source_sha256": "ded4ccd346fbeec6c99123014c9eececd9a9f56a4d091a8e3d3d03faa77981d5",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q4_k_m-validation.log",
+    "source": "results/raw/qwen3-4b-q4_k_m-validation.log",
+    "size": 423191,
+    "source_size": 425411,
+    "sha256": "c67cd264ee1bfd0728379407c8a287b1e73e17dfd812ab029c5d769f063fc552",
+    "source_sha256": "f558c1b161d2626a052a84787cb292ee96e8e15ae03e1c5bb569520b2ad6eb6f",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q6_k-bench.json",
+    "source": "results/raw/qwen3-4b-q6_k-bench.json",
+    "size": 2673,
+    "source_size": 2761,
+    "sha256": "d46766cbdad0f2325193bbe0e9064e34b2bf7acc18c95e0e6b9a8a2d2d7633e6",
+    "source_sha256": "0f630ec5babb281ac3f849dc24c619f42486aa2da6ee225c7a2aa12e83734d50",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q6_k-bench.stderr.log",
+    "source": "results/raw/qwen3-4b-q6_k-bench.stderr.log",
+    "size": 155,
+    "source_size": 155,
+    "sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "source_sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-q6_k-mmlu-full-harness.log",
+    "source": "results/raw/qwen3-4b-q6_k-mmlu-full-harness.log",
+    "size": 332500,
+    "source_size": 332652,
+    "sha256": "c1b0e46a54f188fc378d670a70f9ec925ef707687cc427e0cf85889f859ccbe6",
+    "source_sha256": "2e5fca0f07da60e527377cfffaf7832c1905c36870458373720adf262e8193f5",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q6_k-perplexity.log",
+    "source": "results/raw/qwen3-4b-q6_k-perplexity.log",
+    "size": 8365,
+    "source_size": 8365,
+    "sha256": "a546266f267f8d72cd9b948f3c730133899d7a87cd844248edc4be7e24ea22c7",
+    "source_sha256": "a546266f267f8d72cd9b948f3c730133899d7a87cd844248edc4be7e24ea22c7",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-q6_k-quantization.log",
+    "source": "results/raw/qwen3-4b-q6_k-quantization.log",
+    "size": 62888,
+    "source_size": 63154,
+    "sha256": "3883a2ecff3e473a07dadc3a6c1f23cf38d58c96bae3041d3f04d45aafcd1181",
+    "source_sha256": "959ac6a9b64ae83e6a167925f9db7becab146bfb6e0bf80f3cb6a836e17e48a5",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q6_k-validation.log",
+    "source": "results/raw/qwen3-4b-q6_k-validation.log",
+    "size": 432481,
+    "source_size": 434921,
+    "sha256": "5deb14f62261e18e4fb7ce70f8d67ad5391b00ae458b6d1a6aa9b230348ff60a",
+    "source_sha256": "8caf10269296d5ac4902fa77ac804b5017d2fac076b5a6d160cfaf1241074170",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q8_0-bench.json",
+    "source": "results/raw/qwen3-4b-q8_0-bench.json",
+    "size": 2675,
+    "source_size": 2763,
+    "sha256": "24fb3349bd79a7cfeea5653817f738ecb728aa1ff868cc5168c280b97736057c",
+    "source_sha256": "1154e7f40b3c9776b0f32e99589427319127e15ba6fdfd242627352eb52b1cb7",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q8_0-bench.stderr.log",
+    "source": "results/raw/qwen3-4b-q8_0-bench.stderr.log",
+    "size": 155,
+    "source_size": 155,
+    "sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "source_sha256": "80d848dcc11b92614df7eaa56d64fe08a7dce880b94787430c26e958b3540426",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-q8_0-mmlu-full-harness.log",
+    "source": "results/raw/qwen3-4b-q8_0-mmlu-full-harness.log",
+    "size": 322827,
+    "source_size": 322979,
+    "sha256": "4111b163f812821b47c930061342f3a6a999529c5a43142ef1759e9b6a91ee62",
+    "source_sha256": "1249b1f13d8f3ae23b0018fa85f9a73c0f26ba9b771fc1e37972982a0c41833d",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q8_0-perplexity.log",
+    "source": "results/raw/qwen3-4b-q8_0-perplexity.log",
+    "size": 8366,
+    "source_size": 8366,
+    "sha256": "8225e6c9f8ea852688aeec86161881cb36a46cff220fd7a6b9810daacb871de9",
+    "source_sha256": "8225e6c9f8ea852688aeec86161881cb36a46cff220fd7a6b9810daacb871de9",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": []
+  },
+  {
+    "path": "results/raw/qwen3-4b-q8_0-quantization.log",
+    "source": "results/raw/qwen3-4b-q8_0-quantization.log",
+    "size": 62888,
+    "source_size": 63154,
+    "sha256": "978d6c5408e150b02749179225c17cb7acb670093effd89083c166550b78edac",
+    "source_sha256": "c41bb261e55486e7728bd2744ce23a800566ce8c2057f7da24d93f4384d37151",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "results/raw/qwen3-4b-q8_0-validation.log",
+    "source": "results/raw/qwen3-4b-q8_0-validation.log",
+    "size": 426849,
+    "source_size": 429157,
+    "sha256": "77359c2ca12d485f127e0a46bbf7a09d0504f112ec54a7eb53e0d14e409bd977",
+    "source_sha256": "936ea0064353c7b6c10f4fb1ca222216f32125f9af20d06efb35036e5e51e80b",
+    "purpose": "Evidência de conversão, quantização, validação, velocidade, perplexidade ou harness",
+    "relation": "Metodologia 3.4–3.7; Apêndice A",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "analysis/mmlu_por_questao_recuperado.csv",
+    "source": "V2/apoio/mmlu_por_questao_recuperado.csv",
+    "size": 12510388,
+    "source_size": 12510388,
+    "sha256": "8ab90424c82ac91b9c603a75e2f0797a80b3773bd90acb18e8ec86d7ebc1ffef",
+    "source_sha256": "8ab90424c82ac91b9c603a75e2f0797a80b3773bd90acb18e8ec86d7ebc1ffef",
+    "purpose": "Recuperação histórica sem nova inferência; respostas, contagens e transições",
+    "relation": "Metodologia 3.6.4; Tabelas 4–5",
+    "changes": []
+  },
+  {
+    "path": "analysis/mmlu_contagens.csv",
+    "source": "V2/apoio/mmlu_contagens.csv",
+    "size": 543,
+    "source_size": 543,
+    "sha256": "1fb8ae68aa5bf1a1b347e80c478390fb2fe6a133a3279bee511925427a93eabb",
+    "source_sha256": "1fb8ae68aa5bf1a1b347e80c478390fb2fe6a133a3279bee511925427a93eabb",
+    "purpose": "Recuperação histórica sem nova inferência; respostas, contagens e transições",
+    "relation": "Metodologia 3.6.4; Tabelas 4–5",
+    "changes": []
+  },
+  {
+    "path": "analysis/mmlu_pareado_descritivo.csv",
+    "source": "V2/apoio/mmlu_pareado_descritivo.csv",
+    "size": 418,
+    "source_size": 418,
+    "sha256": "7d1819f8de9788f4a83ca53cf2b68bd7c2b0c7916f5dd3df7c6c7875b9657eb4",
+    "source_sha256": "7d1819f8de9788f4a83ca53cf2b68bd7c2b0c7916f5dd3df7c6c7875b9657eb4",
+    "purpose": "Recuperação histórica sem nova inferência; respostas, contagens e transições",
+    "relation": "Metodologia 3.6.4; Tabelas 4–5",
+    "changes": []
+  },
+  {
+    "path": "analysis/auditoria_dados.json",
+    "source": "V2/apoio/auditoria_dados.json",
+    "size": 4796,
+    "source_size": 4814,
+    "sha256": "bc44ea2aab3783565d7481ce2a649c51ccb9f49e9ecbbec9775aeecf984d633e",
+    "source_sha256": "5f23827acb1f8c007fa6caf217bebe83e90b5f14c3cc51e4cd5ad418c9e5f055",
+    "purpose": "Recuperação histórica sem nova inferência; respostas, contagens e transições",
+    "relation": "Metodologia 3.6.4; Tabelas 4–5",
+    "changes": [
+      "remoção apenas de prefixos locais de caminhos"
+    ]
+  },
+  {
+    "path": "analysis/integridade_final.json",
+    "source": "V1/AUDITORIA_FINAL/apoio/integridade_final.json",
+    "size": 5633,
+    "source_size": 5633,
+    "sha256": "43c3b666d68fbeaf31ed956b5b90b5d0145073a031d850c04ddbe9c2b016e6dc",
+    "source_sha256": "43c3b666d68fbeaf31ed956b5b90b5d0145073a031d850c04ddbe9c2b016e6dc",
+    "purpose": "Verificação histórica dos hashes e valores normalizados",
+    "relation": "Tabelas 1–6",
+    "changes": []
+  },
+  {
+    "path": "scripts/auditar_dados.py",
+    "source": "V2/apoio/auditar_dados.py",
+    "size": 7196,
+    "source_size": 7173,
+    "sha256": "42f89d8747012738153593eece55077b18c070e8bbdd92f2a83bc4d82f2deac9",
+    "source_sha256": "4cfebf376e84d12d28ebb492be3d7e9c6b3bbc4c31560753fbce1441bebf9453",
+    "purpose": "Algoritmo histórico de recuperação; somente caminhos/saída adaptados",
+    "relation": "Metodologia 3.6.4; Apêndice A",
+    "changes": [
+      "adaptação documentada do código para a estrutura pública"
+    ]
+  },
+  {
+    "path": "scripts/gerar_figuras.py",
+    "source": "V2/apoio/gerar_figuras.py",
+    "size": 2974,
+    "source_size": 3055,
+    "sha256": "37924e693516b58845a5ea0f074ad76ac032b6d64613366f6c740952b1920b4f",
+    "source_sha256": "d436a20163d3e8c006a382eba5ab589ea9dde760ee6026d1ff1cce1fc3bcf3ba",
+    "purpose": "Apresentação final dos seis gráficos, com conferência dos valores",
+    "relation": "Figuras 1–6",
+    "changes": [
+      "adaptação documentada do código para a estrutura pública"
+    ]
+  },
+  {
+    "path": "analysis/plots/01_size.png",
+    "source": "analysis/plots/01_size.png",
+    "size": 67203,
+    "source_size": 67203,
+    "sha256": "894a13a46c43732dcffed601c98d0561e3b172883030bc7228bc6ba6dbebef1c",
+    "source_sha256": "894a13a46c43732dcffed601c98d0561e3b172883030bc7228bc6ba6dbebef1c",
+    "purpose": "Gráficos originais produzidos por results.py",
+    "relation": "Etapa de consolidação; versão anterior da apresentação",
+    "changes": []
+  },
+  {
+    "path": "analysis/plots/02_vram.png",
+    "source": "analysis/plots/02_vram.png",
+    "size": 75430,
+    "source_size": 75430,
+    "sha256": "5da4f119cee21d03137b30b4ed74a7c7090ebfa6fd799ab34cada1144ff1c7fe",
+    "source_sha256": "5da4f119cee21d03137b30b4ed74a7c7090ebfa6fd799ab34cada1144ff1c7fe",
+    "purpose": "Gráficos originais produzidos por results.py",
+    "relation": "Etapa de consolidação; versão anterior da apresentação",
+    "changes": []
+  },
+  {
+    "path": "analysis/plots/03_pp512.png",
+    "source": "analysis/plots/03_pp512.png",
+    "size": 78046,
+    "source_size": 78046,
+    "sha256": "c485426660763d0a0fee1000f7f655c1a125a4e3dcbca75c3d4b3262492021e7",
+    "source_sha256": "c485426660763d0a0fee1000f7f655c1a125a4e3dcbca75c3d4b3262492021e7",
+    "purpose": "Gráficos originais produzidos por results.py",
+    "relation": "Etapa de consolidação; versão anterior da apresentação",
+    "changes": []
+  },
+  {
+    "path": "analysis/plots/04_tg128.png",
+    "source": "analysis/plots/04_tg128.png",
+    "size": 69869,
+    "source_size": 69869,
+    "sha256": "277eb8d298dae33ab4e4dc6f73c01ee0f80f9305f3df81df67226e386bbfd2d5",
+    "source_sha256": "277eb8d298dae33ab4e4dc6f73c01ee0f80f9305f3df81df67226e386bbfd2d5",
+    "purpose": "Gráficos originais produzidos por results.py",
+    "relation": "Etapa de consolidação; versão anterior da apresentação",
+    "changes": []
+  },
+  {
+    "path": "analysis/plots/05_perplexity.png",
+    "source": "analysis/plots/05_perplexity.png",
+    "size": 67678,
+    "source_size": 67678,
+    "sha256": "f0a497358a7dc82501ca300cdd1dc6e015d710ad172e4661189ffc307d9d7751",
+    "source_sha256": "f0a497358a7dc82501ca300cdd1dc6e015d710ad172e4661189ffc307d9d7751",
+    "purpose": "Gráficos originais produzidos por results.py",
+    "relation": "Etapa de consolidação; versão anterior da apresentação",
+    "changes": []
+  },
+  {
+    "path": "analysis/plots/06_mmlu_pro.png",
+    "source": "analysis/plots/06_mmlu_pro.png",
+    "size": 77208,
+    "source_size": 77208,
+    "sha256": "1c9303dfefa4ef3cacc1f4759a9bcfb9e2b24deda096bc0539ba43ac247f6626",
+    "source_sha256": "1c9303dfefa4ef3cacc1f4759a9bcfb9e2b24deda096bc0539ba43ac247f6626",
+    "purpose": "Gráficos originais produzidos por results.py",
+    "relation": "Etapa de consolidação; versão anterior da apresentação",
+    "changes": []
+  },
+  {
+    "path": "plots/01_size.png",
+    "source": "V2/apoio/figuras/01_size.png",
+    "size": 65855,
+    "source_size": 65855,
+    "sha256": "52ef17e5be70f44cf3d9f76101f2eed5abafae5ba2f2f41fb81e1c5cd1e8b9c1",
+    "source_sha256": "52ef17e5be70f44cf3d9f76101f2eed5abafae5ba2f2f41fb81e1c5cd1e8b9c1",
+    "purpose": "Figuras efetivamente usadas no TCC atual e séries exatas",
+    "relation": "Figuras 1–6",
+    "changes": []
+  },
+  {
+    "path": "plots/02_vram.png",
+    "source": "V2/apoio/figuras/02_vram.png",
+    "size": 74330,
+    "source_size": 74330,
+    "sha256": "170d712dcd6d2f549e0fa81de65be94e0e8da0a23a10833d0a67cf25a43506c1",
+    "source_sha256": "170d712dcd6d2f549e0fa81de65be94e0e8da0a23a10833d0a67cf25a43506c1",
+    "purpose": "Figuras efetivamente usadas no TCC atual e séries exatas",
+    "relation": "Figuras 1–6",
+    "changes": []
+  },
+  {
+    "path": "plots/03_pp512.png",
+    "source": "V2/apoio/figuras/03_pp512.png",
+    "size": 75867,
+    "source_size": 75867,
+    "sha256": "34dc7804d0cd8b0f8150137c258cacb0f4d60e27e974818fcc74cbd77a0316d0",
+    "source_sha256": "34dc7804d0cd8b0f8150137c258cacb0f4d60e27e974818fcc74cbd77a0316d0",
+    "purpose": "Figuras efetivamente usadas no TCC atual e séries exatas",
+    "relation": "Figuras 1–6",
+    "changes": []
+  },
+  {
+    "path": "plots/04_tg128.png",
+    "source": "V2/apoio/figuras/04_tg128.png",
+    "size": 69413,
+    "source_size": 69413,
+    "sha256": "19774749dbf14a0cde48c7bf9da2ea5488da794b5cd3ad6db70c3db343ec1242",
+    "source_sha256": "19774749dbf14a0cde48c7bf9da2ea5488da794b5cd3ad6db70c3db343ec1242",
+    "purpose": "Figuras efetivamente usadas no TCC atual e séries exatas",
+    "relation": "Figuras 1–6",
+    "changes": []
+  },
+  {
+    "path": "plots/05_perplexity.png",
+    "source": "V2/apoio/figuras/05_perplexity.png",
+    "size": 68594,
+    "source_size": 68594,
+    "sha256": "ccc58ea81433090f789efa7d9878320eb956b9cfd83148418359315ce9534374",
+    "source_sha256": "ccc58ea81433090f789efa7d9878320eb956b9cfd83148418359315ce9534374",
+    "purpose": "Figuras efetivamente usadas no TCC atual e séries exatas",
+    "relation": "Figuras 1–6",
+    "changes": []
+  },
+  {
+    "path": "plots/06_mmlu_pro.png",
+    "source": "V2/apoio/figuras/06_mmlu_pro.png",
+    "size": 71460,
+    "source_size": 71460,
+    "sha256": "f3f5c9c859ead7addfe083a19cd5a6ca6f311e8e79661aa209ea52daddd4944f",
+    "source_sha256": "f3f5c9c859ead7addfe083a19cd5a6ca6f311e8e79661aa209ea52daddd4944f",
+    "purpose": "Figuras efetivamente usadas no TCC atual e séries exatas",
+    "relation": "Figuras 1–6",
+    "changes": []
+  },
+  {
+    "path": "plots/valores_graficos.json",
+    "source": "V2/apoio/figuras/valores_graficos.json",
+    "size": 1733,
+    "source_size": 1733,
+    "sha256": "d8d170e597111000f3db990cb6dfaab7a92755364c2989a2baa36de4a526f93d",
+    "source_sha256": "d8d170e597111000f3db990cb6dfaab7a92755364c2989a2baa36de4a526f93d",
+    "purpose": "Figuras efetivamente usadas no TCC atual e séries exatas",
+    "relation": "Figuras 1–6",
+    "changes": []
+  }
+]

@@ -1,0 +1,9 @@
+model,quantization,both_correct,native_correct_quant_wrong,native_wrong_quant_correct,both_wrong,net_correct
+gemma3-4b,Q8_0,3564,80,58,8330,-22
+gemma3-4b,Q6_K,3476,168,136,8252,-32
+gemma3-4b,Q4_K_M,3035,609,449,7939,-160
+gemma3-4b,Q2_K,788,2856,751,7637,-2105
+qwen3-4b,Q8_0,4827,100,89,7016,-11
+qwen3-4b,Q6_K,4702,225,170,6935,-55
+qwen3-4b,Q4_K_M,4251,676,486,6619,-190
+qwen3-4b,Q2_K,1246,3681,592,6513,-3089

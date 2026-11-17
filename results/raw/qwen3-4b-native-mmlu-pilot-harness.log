@@ -1,0 +1,29 @@
+2026-09-28:22:34:09 WARNING  [config.evaluate_config:337] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-09-28:22:34:09 INFO     [config.evaluate_config:357] Using default fewshot_as_multiturn=True.
+2026-09-28:22:34:18 INFO     [_cli.run:391] Including path: analysis\tasks
+2026-09-28:22:34:18 INFO     [_cli.run:392] Selected Tasks: ['mmlu_pro_direct']
+2026-09-28:22:34:20 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-09-28:22:34:20 INFO     [evaluator:239] Initializing local-chat-completions model, with arguments: {'model': 'tcc-model', 'base_url': 'http://127.0.0.1:8090/v1/chat/completions', 'tokenizer_backend': 'none', 'tokenized_requests': False, 'num_concurrent': 8, 'max_length': 2048, 'max_retries': 3, 'timeout': 300}
+2026-09-28:22:34:20 INFO     [models.api_models:176] Using max length 2048 - 1
+2026-09-28:22:34:20 INFO     [models.api_models:197] Using tokenizer None
+2026-09-28:22:34:20 INFO     [evaluator:278] Using cache at results\processed\qwen3-4b-native-mmlu-pilot-cacheflashon_rank0.db
+2026-09-28:22:34:22 INFO     [evaluator_utils:472] Selected tasks:
+2026-09-28:22:34:22 INFO     [evaluator_utils:506] Task: mmlu_pro_direct (analysis\tasks\mmlu_pro_direct.yaml)
+2026-09-28:22:34:22 INFO     [evaluator:314] mmlu_pro_direct: Using gen_kwargs: {'until': ['\n'], 'max_gen_toks': 8, 'do_sample': False, 'temperature': 0.0}
+2026-09-28:22:34:22 INFO     [evaluator:330] num_fewshot has been set to 0 for mmlu_pro_direct in its config. Manual configuration will be ignored.
+2026-09-28:22:34:22 INFO     [api.task:312] Building contexts for mmlu_pro_direct on rank 0...
+  0%|          | 0/70 [00:00<?, ?it/s]100%|██████████| 70/70 [00:00<00:00, 69755.59it/s]
+2026-09-28:22:34:22 INFO     [evaluator:589] Running generate_until requests
+2026-09-28:22:34:22 INFO     [api.model:305] Loading 'generate_until' responses from cache 'results\processed\qwen3-4b-native-mmlu-pilot-cacheflashon_rank0.db' where possible...
+Checking cached requests:   0%|          | 0/70 [00:00<?, ?it/s]Checking cached requests: 100%|██████████| 70/70 [00:00<00:00, 3253.96it/s]
+2026-09-28:22:34:22 INFO     [api.model:329] Cached requests: 0, Requests remaining: 70
+2026-09-28:22:34:22 INFO     [models.api_models:752] Tokenized requests are disabled. Context + generation length is not checked.
+Requesting API:   0%|          | 0/70 [00:00<?, ?it/s]Requesting API:   1%|▏         | 1/70 [00:00<00:08,  7.98it/s]Requesting API:   4%|▍         | 3/70 [00:00<00:05, 11.87it/s]Requesting API:   7%|▋         | 5/70 [00:00<00:04, 13.01it/s]Requesting API:  10%|█         | 7/70 [00:00<00:04, 15.12it/s]Requesting API:  14%|█▍        | 10/70 [00:00<00:03, 18.10it/s]Requesting API:  19%|█▊        | 13/70 [00:00<00:02, 20.58it/s]Requesting API:  23%|██▎       | 16/70 [00:00<00:02, 23.05it/s]Requesting API:  27%|██▋       | 19/70 [00:01<00:02, 21.50it/s]Requesting API:  31%|███▏      | 22/70 [00:01<00:02, 20.16it/s]Requesting API:  36%|███▌      | 25/70 [00:01<00:02, 16.52it/s]Requesting API:  39%|███▊      | 27/70 [00:01<00:02, 16.45it/s]Requesting API:  43%|████▎     | 30/70 [00:01<00:02, 16.23it/s]Requesting API:  47%|████▋     | 33/70 [00:01<00:02, 17.25it/s]Requesting API:  50%|█████     | 35/70 [00:02<00:02, 17.49it/s]Requesting API:  53%|█████▎    | 37/70 [00:02<00:02, 16.09it/s]Requesting API:  57%|█████▋    | 40/70 [00:02<00:01, 17.23it/s]Requesting API:  61%|██████▏   | 43/70 [00:02<00:01, 18.13it/s]Requesting API:  64%|██████▍   | 45/70 [00:02<00:01, 18.45it/s]Requesting API:  67%|██████▋   | 47/70 [00:02<00:01, 18.63it/s]Requesting API:  71%|███████▏  | 50/70 [00:02<00:01, 19.41it/s]Requesting API:  76%|███████▌  | 53/70 [00:02<00:00, 20.30it/s]Requesting API:  80%|████████  | 56/70 [00:03<00:00, 20.03it/s]Requesting API:  84%|████████▍ | 59/70 [00:03<00:00, 20.64it/s]Requesting API:  89%|████████▊ | 62/70 [00:03<00:00, 18.05it/s]Requesting API:  93%|█████████▎| 65/70 [00:03<00:00, 18.85it/s]Requesting API:  96%|█████████▌| 67/70 [00:03<00:00, 18.73it/s]Requesting API: 100%|██████████| 70/70 [00:03<00:00, 20.29it/s]Requesting API: 100%|██████████| 70/70 [00:03<00:00, 18.32it/s]
+fatal: Not a valid object name HEAD
+2026-09-28:22:34:31 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-09-28:22:34:31 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to results\raw\mmlu_pilot\qwen3-4b-native\tcc-model/*.jsonl
+local-chat-completions ({'model': 'tcc-model', 'base_url': 'http://127.0.0.1:8090/v1/chat/completions', 'tokenizer_backend': 'none', 'tokenized_requests': False, 'num_concurrent': 8, 'max_length': 2048, 'max_retries': 3, 'timeout': 300}), gen_kwargs: ({}), limit: 70.0, num_fewshot: 0, batch_size: 1
+|     Tasks     |Version|  Filter   |n-shot|  Metric   |   |Value |   |Stderr|
+|---------------|------:|-----------|-----:|-----------|---|-----:|---|-----:|
+|mmlu_pro_direct|      1|letter-only|     0|exact_match|↑  |0.3857|±  |0.0586|
+
